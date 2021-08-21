@@ -1,0 +1,294 @@
+
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+
+ 
+a:link { /* unvisited link */ color: #EBEBEB; text-decoration: none;}
+a:visited { /* visited link */ color: #EBEBEB; text-decoration: none;}
+a:hover { /* mouse over link */ text-decoration: underline; }
+
+
+body {
+    display:flex;
+    overflow-x: hidden; /* elimina lo scroll orizzontale */
+    overflow-y: hidden;
+    background-color: #03120E;
+    background-repeat: no-repeat;
+
+
+}
+
+.logoProfile {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    color: #1A1D1A;
+    letter-spacing: -1px;
+}
+
+.container {
+    display:flex;
+    width: 1500px;
+    height: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #EBEBEB;
+}
+
+.nameMe {
+    color: #FF8811;
+    font-size: 17px;;
+}
+
+.importantText {
+    color: #FF8811;
+}
+
+    /* Main Page */
+.mainPage{
+    display: flex;
+    width: 350px;
+    height: 100%;
+    flex-direction:column;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7); /* ombra */
+    background-color: #1A1D1A;
+    border-radius: 10px;
+}
+
+    /* Elementi di Main Page*/
+.picProfile {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: -50px;
+}
+
+.nameMe {
+    color: #FF8811;
+    padding-top: 30px;
+}
+
+
+    /* Info Page portfolio */
+.infoPage{
+    display:flex;
+    width: 70%;
+    height: 100%;
+    /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); /* ombra */
+    flex-wrap: wrap; /* abilita gestione di "a capo"  laterale */
+    justify-content: space-evenly; /* modalità di "a capo" centrato */
+    /* align-content: stretch; /* modalità di "a capo" laterale */
+    overflow-y: auto; /* blocca il contenuto e mi fa scrollare la sezione */
+}
+
+/* design scrollbar */
+#style-4::-webkit-scrollbar { width: 0px; }
+/* #style-4::-webkit-scrollbar-track { background-color: #c00303; } */
+/* #style-4::-webkit-scrollbar-thumb { background-color: #180391; } */
+
+/* ANIMAZIONE PORTFOLIO */
+.infoPage div {
+    flex:1;
+    max-width: 150px;
+    min-width: 150px;
+    max-height: 230px;
+    min-height: 230px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+/*    background: #3E505B; */
+    color: black;
+    border: 1px black solid;
+    box-shadow: 5px 2px 7px rgba(62,	80,	91, 0.8);
+    
+    /* shadow   ->  bottom  %sfocatura */
+}
+
+.square1 { background-image: url("imgPres/Portfolio0.jpg"); }
+.square2 { background-image: url("imgPres/Portfolio2.jpg"); }
+.square3 { background-image: url("imgPres/Portfolio3.jpg"); }
+.square4 { background-image: url("imgPres/Portfolio4.jpg"); }
+.square5 { background-image: url("imgPres/Portfolio5.jpg"); }
+.square6 { background-image: url("imgPres/Portfolio6.jpg"); }
+.square7 { background-image: url("imgPres/Portfolio7.jpg"); }
+.square8 { background-image: url("imgPres/Portfolio8.jpg"); }
+.square9 { background-image: url("imgPres/Portfolio9.jpg"); }
+
+div {
+    padding: 10px; /* margine tra bordo e contenuto */
+    margin: 10px; /* margine esterno */
+    margin-bottom: 10px;
+}
+
+/* filter section 
+.textFilter{
+    color: rgba(0, 0, 0, 0);
+}*/
+
+
+.wrp {
+    display:flex;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    justify-content: flex-start;
+    margin-left: -25px;
+    align-items: center;
+  }
+
+.filters{
+    align-items: center;
+    flex-direction:column;
+}
+
+.iconFilter{
+    height: auto;
+    font-size: 25px;
+    margin: 0;
+    border-radius: 50%;
+}
+
+.textFilter{
+    font-size: 18px; 
+    color: rgba(0,0,0,0);
+    align-items: center;
+    margin: 0;
+}
+
+.iconFilter:hover + .textFilter {
+    color: #FF8811;
+   /* box-shadow: -10px 0px 12px rgba(26,29,26, 0.8); */
+     transition-duration: 0.7s;
+    transition-property: color, box-shadow;
+}
+
+.textFilter:hover{
+    color: #FF8811;
+/*    box-shadow: -10px 0px 12px rgba(26,29,26, 0.8); */
+    transition-duration: 0.7s;
+    transition-property: color, box-shadow,background-color;
+}
+
+
+
+/* COSE DA APPROFONDIRE 
+.textFilter{
+    $border-color: rgba(orange, 1);
+    border: 2px solid $border-color;
+}
+*/
+
+
+    /* clip-path: polygon(48% 35%, 0 100%, 82% 100%); 
+    
+            margin-left: -220px; /* margine tra bordo e contenuto 
+            width: 900px;
+            height: 900px;
+            */
+            body {
+                overflow-x: hidden; /* elimina lo scroll orizzontale */
+               background-color: #03120E;
+               /*  background-image: url("backgroundPic.jpg"); */
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                display:flex;
+                height: 100%;
+                overflow-y: hidden;
+                
+            }
+
+.polyBack div{
+    position: absolute;
+}
+
+.polyMoun1{
+    background-color: #3E505B;
+    clip-path: polygon(67% 0, 0 100%, 100% 100%);
+    z-index:-3;
+    left: -10px;
+    bottom: -10px;
+    width: 600px;
+    height: 700px;
+}
+
+.polyMoun2{
+    background-color: #3E505B;
+    clip-path: polygon(42% 0, 16% 100%, 100% 100%);
+    z-index:-3;
+    left: -10px;
+    bottom: -10px;
+    width: 900px;
+    height: 800px;
+}
+
+.polyMoun3{
+    background-color: #4b5f6b;
+    clip-path: polygon(61% 40%, 16% 100%, 78% 100%);
+    z-index:-2;
+    left: -10px;
+    bottom: -10px;
+    width: 900px;
+    height: 800px;
+}
+
+.polyMoun4{
+    background-color: #3E505B;
+    clip-path: polygon(89% 16%, 24% 100%, 100% 100%);
+    z-index:-3; 
+    right: -30px;
+    bottom: -10px;
+    width: 900px;
+    height: 800px;
+}
+
+.polyMoun5{
+    background-color: #4b5f6b;
+    clip-path: polygon(50% 58%, 24% 100%, 100% 100%);
+    z-index:-2; 
+    right: -10px;
+    bottom: -10px;
+    width: 900px;
+    height: 800px;
+}
+
+.polySun{
+    background-color: #fffb00;
+    clip-path: circle(50% at 50% 50%);
+    z-index:-4; 
+    left: 100px; 
+    top: 100px;
+    width: 500px;
+    height: 500px;
+}
+
+.polyOther1{
+    background-color: #FF8811;
+    clip-path: polygon(44% 58%, 53% 59%, 54% 57%, 58% 59%, 63% 56%, 78% 58%, 67% 60%, 60% 65%, 60% 71%, 54% 64%, 46% 63%, 32% 63%);
+    z-index:-1; 
+    left: 35%; 
+    top: 300px;
+    width: 200px;
+    height: 200px;
+}
+
+.polyOther2{
+    background-color: #FF8811;
+    clip-path: polygon(44% 58%, 53% 59%, 54% 57%, 58% 59%, 63% 56%, 78% 58%, 67% 60%, 60% 65%, 60% 71%, 54% 64%, 46% 63%, 32% 63%);
+    z-index:-1; 
+    left: 34%; 
+    top: 380px;
+    width: 170px;
+    height: 170px;
+}
