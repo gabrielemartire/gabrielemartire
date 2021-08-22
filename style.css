@@ -3,23 +3,22 @@
     font-family: 'Comfortaa', cursive;
 }
 
+body {
+    display:flex;
+    overflow-y: hidden;
+    background-color: #03120E;
+    background-repeat: no-repeat;
+    overflow-x: hidden; /* elimina lo scroll orizzontale */
+    background-size: 100% 100%;
+    height: 100%;
+}
 
- 
+/* animazione link */
 a:link { /* unvisited link */ color: #EBEBEB; text-decoration: none;}
 a:visited { /* visited link */ color: #EBEBEB; text-decoration: none;}
 a:hover { /* mouse over link */ text-decoration: underline; }
 
-
-body {
-    display:flex;
-    overflow-x: hidden; /* elimina lo scroll orizzontale */
-    overflow-y: hidden;
-    background-color: #03120E;
-    background-repeat: no-repeat;
-
-
-}
-
+/* logo GM */
 .logoProfile {
     font-family: 'Lobster', cursive;
     font-size: 40px;
@@ -27,6 +26,7 @@ body {
     letter-spacing: -1px;
 }
 
+/* container generale */
 .container {
     display:flex;
     width: 1500px;
@@ -39,35 +39,42 @@ body {
     color: #EBEBEB;
 }
 
-.nameMe {
+/* row my name */
+.myName {
     color: #FF8811;
-    font-size: 17px;;
+    font-size: 18px;
 }
 
-.importantText {
+/* | lampeggiante */
+.blinkText { animation: blinker 1s linear infinite; } /* blink */
+@keyframes blinker { 50% { opacity: 0; } } /* blink */
+
+/* il mio lavoro  */
+.myTask {
     color: #FF8811;
 }
 
-    /* Main Page */
-.mainPage{
+    /* info box a sinistra */ 
+.infoBox {
     display: flex;
     width: 350px;
     height: 100%;
     flex-direction:column;
     text-align: center;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7); /* ombra */
+    box-shadow: 10px 10px 10px rgba(22, 22, 22, 0.7); /* ombra */
     background-color: #1A1D1A;
     border-radius: 10px;
 }
 
-    /* Elementi di Main Page*/
+    /* foto profilo */
 .picProfile {
-    width: 110px;
-    height: 110px;
+    width: 125px;
+    height: 125px;
     border-radius: 50%;
     vertical-align: middle;
 }
 
+/* proprietà per immagine fuori infoBox */
 img {
     display: block;
     margin-left: auto;
@@ -76,139 +83,134 @@ img {
     margin-top: -50px;
 }
 
-.nameMe {
-    color: #FF8811;
-    padding-top: 30px;
+/* write to me link */
+.writeToMe{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 16px;
 }
 
+.writeToMe:link { /* unvisited link */ color: #EBEBEB; text-decoration: none;}
+.writeToMe:visited { /* visited link */ color: #EBEBEB; text-decoration: none;}
+.writeToMe:hover { /* mouse over link */ text-decoration: underline; }
 
-    /* Info Page portfolio */
-.infoPage{
+    /* contenitore area portfolio */
+.portfolioBox{
     display:flex;
     width: 70%;
     height: 100%;
-    /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); /* ombra */
     flex-wrap: wrap; /* abilita gestione di "a capo"  laterale */
     justify-content: space-evenly; /* modalità di "a capo" centrato */
-    /* align-content: stretch; /* modalità di "a capo" laterale */
     overflow-y: auto; /* blocca il contenuto e mi fa scrollare la sezione */
 }
 
-/* design scrollbar */
+/* design scrollbar verticale portfolioBox */
 #style-4::-webkit-scrollbar { width: 0px; }
-/* #style-4::-webkit-scrollbar-track { background-color: #c00303; } */
-/* #style-4::-webkit-scrollbar-thumb { background-color: #180391; } */
 
-/* ANIMAZIONE PORTFOLIO */
-.infoPage div {
-    flex:1;
+/* schede nel portfolio */
+.portfolioBox button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    cursor: pointer;
     max-width: 150px;
     min-width: 150px;
     max-height: 230px;
     min-height: 230px;
     border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-/*    background: #3E505B; */
+    padding-left: 7px;
+    padding-right: 7px;
     color: black;
-    border: 1px black solid;
-    box-shadow: 5px 2px 7px rgba(62,	80,	91, 0.8);
-    
-    /* shadow   ->  bottom  %sfocatura */
-}
-
-.square1 { background-image: url("imgPres/Portfolio0.jpg"); }
-.square2 { background-image: url("imgPres/Portfolio2.jpg"); }
-.square3 { background-image: url("imgPres/Portfolio3.jpg"); }
-.square4 { background-image: url("imgPres/Portfolio4.jpg"); }
-.square5 { background-image: url("imgPres/Portfolio5.jpg"); }
-.square6 { background-image: url("imgPres/Portfolio6.jpg"); }
-.square7 { background-image: url("imgPres/Portfolio7.jpg"); }
-.square8 { background-image: url("imgPres/Portfolio8.jpg"); }
-.square9 { background-image: url("imgPres/Portfolio9.jpg"); }
-
-div {
-    padding: 10px; /* margine tra bordo e contenuto */
+    font-size: 16px;
+    border: none;
+    box-shadow: 5px 2px 7px rgba(62, 80, 91, 0.836);
+    /* shadow    🡆  🡇   ☁ */
+    padding-top: 10px;
+    padding-left: 5px; /* margine tra bordo e contenuto */
     margin: 10px; /* margine esterno */
     margin-bottom: 10px;
 }
 
-/* filter section 
-.textFilter{
-    color: rgba(0, 0, 0, 0);
-}*/
+/* background schede */
+.square1 { background-color:rgba(62, 80, 91, 0.8); }
+.square2 { background-color:rgba(62, 80, 91, 0.8); }
+.square3 { background-image: url("preview/preview (1).jpg"); }
+.square4 { background-image: url("preview/preview (2).jpg"); }
+.square5 { background-image: url("preview/preview (3).jpg"); }
+.square6 { background-image: url("preview/preview (4).jpg"); }
+.square7 { background-image: url("preview/preview (5).jpg"); }
+.square8 { background-image: url("preview/preview (6).jpg"); }
+.square9 { background-image: url("preview/preview (7).jpg"); }
+.square10 { background-image: url("preview/preview (8).jpg"); }
+.square11 { background-image: url("preview/preview (9).jpg"); }
 
+/* animazione per le prime 2 schede extra portfolio */
+.skillsList {
+    list-style-type: ">";
+    padding-left: 7px;
+    margin: 1px;
+}
 
-.wrp {
+.skillsList li {
+text-align: left;
+}
+
+.skillsList span {
+    font-weight: bold;
+}
+
+/* tutti i bottoni filtro */
+.filters button {
     display:flex;
     border: 0px;
     background-color: rgba(255, 255, 255, 0);
     justify-content: flex-start;
-    margin-left: -25px;
+    /*margin-left: -25px;*/
     align-items: center;
   }
 
+  /* contenitore dei filtri */
 .filters{
     align-items: center;
     flex-direction:column;
 }
 
+/* icone filtri */
 .iconFilter{
     height: auto;
     font-size: 25px;
     margin: 0;
     border-radius: 50%;
+    cursor: pointer;
 }
 
+/* testo filtri */
 .textFilter{
+    width: 60px;
     font-size: 18px; 
     color: rgba(0,0,0,0);
     align-items: center;
     margin: 0;
+    cursor: pointer;
 }
 
+/* quando passi sull'icona filtro → animazione testo filtro */
 .iconFilter:hover + .textFilter {
     color: #FF8811;
-   /* box-shadow: -10px 0px 12px rgba(26,29,26, 0.8); */
      transition-duration: 0.7s;
     transition-property: color, box-shadow;
 }
 
+/* animazione testo filtro */
 .textFilter:hover{
     color: #FF8811;
-/*    box-shadow: -10px 0px 12px rgba(26,29,26, 0.8); */
     transition-duration: 0.7s;
     transition-property: color, box-shadow,background-color;
 }
 
-
-
-/* COSE DA APPROFONDIRE 
-.textFilter{
-    $border-color: rgba(orange, 1);
-    border: 2px solid $border-color;
-}
-*/
-
-
-    /* clip-path: polygon(48% 35%, 0 100%, 82% 100%); 
-    
-            margin-left: -220px; /* margine tra bordo e contenuto 
-            width: 900px;
-            height: 900px;
-            */
-            body {
-                overflow-x: hidden; /* elimina lo scroll orizzontale */
-               background-color: #03120E;
-               /*  background-image: url("backgroundPic.jpg"); */
-                background-repeat: no-repeat;
-                background-size: 100% 100%;
-                display:flex;
-                height: 100%;
-                overflow-y: hidden;
-                
-            }
-
+/* tutti gli elementi del contenitore polyBack */
 .polyBack div{
     position: absolute;
 }
