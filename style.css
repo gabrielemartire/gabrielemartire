@@ -11,6 +11,7 @@ body {
     overflow-x: hidden; /* elimina lo scroll orizzontale */
     background-size: 100% 100%;
     height: 100%;
+    border: 2px green solid;
 }
 
 /* animazione link */
@@ -29,14 +30,17 @@ a:hover { /* mouse over link */ text-decoration: underline; }
 /* container generale */
 .container {
     display:flex;
-    width: 1500px;
+
+    color: #EBEBEB;
+    border: 2px rgb(128, 0, 53) solid;
+    width: 100%;/*1500px;*/
     height: 700px;
-    margin-right: auto;
-    margin-left: auto;
-    justify-content: space-evenly;
     margin-top: 100px;
     margin-bottom: 30px;
-    color: #EBEBEB;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+    flex-wrap: wrap; 
 }
 
 /* row my name */
@@ -83,7 +87,7 @@ img {
     margin-top: -50px;
 }
 
-/* write to me link */
+    /* write to me link */
 .writeToMe{
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0);
@@ -91,18 +95,30 @@ img {
     border: none;
     font-size: 16px;
 }
-
 .writeToMe:link { /* unvisited link */ color: #EBEBEB; text-decoration: none;}
 .writeToMe:visited { /* visited link */ color: #EBEBEB; text-decoration: none;}
 .writeToMe:hover { /* mouse over link */ text-decoration: underline; }
 
+    /* Tweet to me link */
+.TweetToMe{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-size: 16px;
+}
+.TweetToMe:link { /* unvisited link */ color: #EBEBEB; text-decoration: none;}
+.TweetToMe:visited { /* visited link */ color: #EBEBEB; text-decoration: none;}
+.TweetToMe:hover { /* mouse over link */ color: #00acee; text-decoration: underline; }
+
     /* contenitore area portfolio */
 .portfolioBox{
     display:flex;
-    width: 70%;
+    border: 2px rgb(2, 0, 128) solid;
+    margin: 0 2%; /*margin-right: 7%;*/
     height: 100%;
+    width: 50%;
     flex-wrap: wrap; /* abilita gestione di "a capo"  laterale */
-    justify-content: space-evenly; /* modalità di "a capo" centrato */
+    justify-content: space-around; /* space-evenly      modalità di "a capo" centrato */
     overflow-y: auto; /* blocca il contenuto e mi fa scrollare la sezione */
 }
 
@@ -115,17 +131,17 @@ img {
     justify-content: flex-start;
     align-items: flex-start;
     cursor: pointer;
-    max-width: 150px;
-    min-width: 150px;
-    max-height: 230px;
-    min-height: 230px;
+    max-width: 170px;
+    min-width: 170px;
+    max-height: 250px;
+    min-height: 250px;
     border-radius: 10px;
     padding-left: 7px;
     padding-right: 7px;
-    color: black;
+    color: #EBEBEB;
     font-size: 16px;
     border: none;
-    box-shadow: 5px 2px 7px rgba(62, 80, 91, 0.836);
+ 
     /* shadow    🡆  🡇   ☁ */
     padding-top: 10px;
     padding-left: 5px; /* margine tra bordo e contenuto */
@@ -134,8 +150,8 @@ img {
 }
 
 /* background schede */
-.square1 { background-color:rgba(62, 80, 91, 0.8); }
-.square2 { background-color:rgba(62, 80, 91, 0.8); }
+.square1 { background-color:rgb(62, 80, 91); }
+.square2 { background-color:rgb(62, 80, 91); }
 .square3 { background-image: url("preview/preview (1).jpg"); }
 .square4 { background-image: url("preview/preview (2).jpg"); }
 .square5 { background-image: url("preview/preview (3).jpg"); }
@@ -155,10 +171,6 @@ img {
 
 .skillsList li {
 text-align: left;
-}
-
-.skillsList span {
-    font-weight: bold;
 }
 
 /* tutti i bottoni filtro */
@@ -215,58 +227,56 @@ text-align: left;
     position: absolute;
 }
 
-.polyMoun1{
-    background-color: #3E505B;
-    clip-path: polygon(67% 0, 0 100%, 100% 100%);
-    z-index:-3;
-    left: -10px;
-    bottom: -10px;
-    width: 600px;
-    height: 700px;
-}
+/*
+.polyMoun1{ background-color: #3E505B; clip-path: polygon(67% 0, 0 100%, 100% 100%); z-index:-3; left: -10px; bottom: -10px; width: 600px; height: 700px; }
+.polyMoun2{ background-color: #3E505B; clip-path: polygon(42% 0, 16% 100%, 100% 100%); z-index:-3; left: -10px; bottom: -10px; width: 900px; height: 800px; }
+.polyMoun3{ background-color: #4b5f6b; clip-path: polygon(61% 40%, 16% 100%, 78% 100%); z-index:-2; left: -10px; bottom: -10px; width: 900px; height: 800px; }
+.polyMoun4{ background-color: #3E505B; clip-path: polygon(89% 16%, 24% 100%, 100% 100%); z-index:-3;  right: -30px; bottom: -10px; width: 900px; height: 800px; }
+.polyMoun5{ background-color: #4b5f6b; clip-path: polygon(50% 58%, 24% 100%, 100% 100%); z-index:-2;  right: -10px; bottom: -10px; width: 900px; height: 800px; }
+*/
 
-.polyMoun2{
-    background-color: #3E505B;
-    clip-path: polygon(42% 0, 16% 100%, 100% 100%);
+.polyMoun2{ /* duna 1 */
+    background-color: #728d9e;
+    clip-path: polygon(90% 70%, 0 100%, 100% 100%);
     z-index:-3;
-    left: -10px;
+    left: -730px;
     bottom: -10px;
     width: 900px;
     height: 800px;
 }
 
-.polyMoun3{
-    background-color: #4b5f6b;
-    clip-path: polygon(61% 40%, 16% 100%, 78% 100%);
+.polyMoun3{ /* duna 1 */
+    background-color: #3E505B;
+    clip-path: polygon(10% 70%, 20% 100%, 100% 100%);
     z-index:-2;
     left: -10px;
     bottom: -10px;
     width: 900px;
     height: 800px;
 }
-
-.polyMoun4{
-    background-color: #3E505B;
-    clip-path: polygon(89% 16%, 24% 100%, 100% 100%);
+ 
+.polyMoun4{ /* duna 2 */
+    background-color: #728d9e;
+    clip-path: polygon(70% 80%, 0 100%, 100% 100%);
     z-index:-3; 
-    right: -30px;
+    left: 360px;
     bottom: -10px;
     width: 900px;
     height: 800px;
 }
 
-.polyMoun5{
-    background-color: #4b5f6b;
-    clip-path: polygon(50% 58%, 24% 100%, 100% 100%);
+.polyMoun5{ /* duna 2 */
+    background-color: #3E505B;
+    clip-path: polygon(10% 80%, 30% 100%, 100% 100%);
     z-index:-2; 
-    right: -10px;
+    left: 900px;
     bottom: -10px;
     width: 900px;
     height: 800px;
 }
 
 .polySun{
-    background-color: #fffb00;
+    background-color: #d4d4dc;
     clip-path: circle(50% at 50% 50%);
     z-index:-4; 
     left: 100px; 
