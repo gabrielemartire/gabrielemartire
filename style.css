@@ -5,13 +5,17 @@
 
 body {
     display:flex;
-    overflow-y: hidden;
-    background-color: #03120E;
+   /* overflow-y: hidden;*/
+    overflow-x: hidden; /* blocca  lo scroll orizzontale */ 
+    background-color: #1A1D1A;
     background-repeat: no-repeat;
-    overflow-x: hidden; /* elimina lo scroll orizzontale */
     background-size: 100% 100%;
     height: 100%;
-    border: 2px green solid;
+}
+
+.backgroundButton {
+    width: 1px;/*1500px;*/
+    height: 1px;
 }
 
 /* animazione link */
@@ -30,15 +34,14 @@ a:hover { /* mouse over link */ text-decoration: underline; }
 /* container generale */
 .container {
     display:flex;
-
     color: #EBEBEB;
-    border: 2px rgb(128, 0, 53) solid;
     width: 100%;/*1500px;*/
     height: 700px;
     margin-top: 100px;
     margin-bottom: 30px;
-    margin-right: 100px;
-    margin-left: 100px;
+/*    margin-right: 100px;
+    margin-left: 100px;*/
+    padding: 0% 7%;
     justify-content: center;
     flex-wrap: wrap; 
 }
@@ -65,8 +68,9 @@ a:hover { /* mouse over link */ text-decoration: underline; }
     height: 100%;
     flex-direction:column;
     text-align: center;
-    box-shadow: 10px 10px 10px rgba(22, 22, 22, 0.7); /* ombra */
-    background-color: #1A1D1A;
+    box-shadow: -10px -10px 1px rgba(255, 136, 17, 0.3);
+     /* shadow    🡆   🡇   ☁ */
+    background-color: #03120E;;
     border-radius: 10px;
 }
 
@@ -113,12 +117,13 @@ img {
     /* contenitore area portfolio */
 .portfolioBox{
     display:flex;
-    border: 2px rgb(2, 0, 128) solid;
-    margin: 0 2%; /*margin-right: 7%;*/
-    height: 100%;
+    padding: 0 2%; /*margin-right: 7%;*/
+    height: 80%;
+    min-width: 380px; /* 550 px */
     width: 50%;
     flex-wrap: wrap; /* abilita gestione di "a capo"  laterale */
-    justify-content: space-around; /* space-evenly      modalità di "a capo" centrato */
+    justify-content: space-around; /* space-evenly modalità di "a capo" centrato */
+    align-items: flex-start;
     overflow-y: auto; /* blocca il contenuto e mi fa scrollare la sezione */
 }
 
@@ -137,30 +142,29 @@ img {
     min-height: 250px;
     border-radius: 10px;
     padding-left: 7px;
-    padding-right: 7px;
     color: #EBEBEB;
+    text-shadow: 5px 5px #03120eb0;
     font-size: 16px;
     border: none;
- 
-    /* shadow    🡆  🡇   ☁ */
     padding-top: 10px;
     padding-left: 5px; /* margine tra bordo e contenuto */
     margin: 10px; /* margine esterno */
     margin-bottom: 10px;
 }
 
-/* background schede */
-.square1 { background-color:rgb(62, 80, 91); }
-.square2 { background-color:rgb(62, 80, 91); }
-.square3 { background-image: url("preview/preview (1).jpg"); }
+.portfolioBox button:hover {
+    box-shadow: -5px -5px 1px rgba(255, 136, 17, 0.3);
+  }
+
+/* background schede rgb(62, 80, 91);*/
+.square1 { background-color: #03120E;}
+.square2 { background-color:#03120E; }
+.square3 { background-color:#03120E; }
 .square4 { background-image: url("preview/preview (2).jpg"); }
 .square5 { background-image: url("preview/preview (3).jpg"); }
 .square6 { background-image: url("preview/preview (4).jpg"); }
 .square7 { background-image: url("preview/preview (5).jpg"); }
 .square8 { background-image: url("preview/preview (6).jpg"); }
-.square9 { background-image: url("preview/preview (7).jpg"); }
-.square10 { background-image: url("preview/preview (8).jpg"); }
-.square11 { background-image: url("preview/preview (9).jpg"); }
 
 /* animazione per le prime 2 schede extra portfolio */
 .skillsList {
@@ -171,6 +175,7 @@ img {
 
 .skillsList li {
 text-align: left;
+margin: 10px 0;
 }
 
 /* tutti i bottoni filtro */
@@ -240,7 +245,7 @@ text-align: left;
     clip-path: polygon(90% 70%, 0 100%, 100% 100%);
     z-index:-3;
     left: -730px;
-    bottom: -10px;
+    bottom: 0px;
     width: 900px;
     height: 800px;
 }
@@ -250,7 +255,7 @@ text-align: left;
     clip-path: polygon(10% 70%, 20% 100%, 100% 100%);
     z-index:-2;
     left: -10px;
-    bottom: -10px;
+    bottom: 0px;
     width: 900px;
     height: 800px;
 }
@@ -260,7 +265,7 @@ text-align: left;
     clip-path: polygon(70% 80%, 0 100%, 100% 100%);
     z-index:-3; 
     left: 360px;
-    bottom: -10px;
+    bottom: 0px;
     width: 900px;
     height: 800px;
 }
@@ -270,7 +275,7 @@ text-align: left;
     clip-path: polygon(10% 80%, 30% 100%, 100% 100%);
     z-index:-2; 
     left: 900px;
-    bottom: -10px;
+    bottom: 0px;
     width: 900px;
     height: 800px;
 }
@@ -289,7 +294,7 @@ text-align: left;
     background-color: #FF8811;
     clip-path: polygon(44% 58%, 53% 59%, 54% 57%, 58% 59%, 63% 56%, 78% 58%, 67% 60%, 60% 65%, 60% 71%, 54% 64%, 46% 63%, 32% 63%);
     z-index:-1; 
-    left: 35%; 
+    left: 5%; 
     top: 300px;
     width: 200px;
     height: 200px;
@@ -299,8 +304,19 @@ text-align: left;
     background-color: #FF8811;
     clip-path: polygon(44% 58%, 53% 59%, 54% 57%, 58% 59%, 63% 56%, 78% 58%, 67% 60%, 60% 65%, 60% 71%, 54% 64%, 46% 63%, 32% 63%);
     z-index:-1; 
-    left: 34%; 
+    left: 2%; 
     top: 380px;
     width: 170px;
     height: 170px;
 }
+
+.polyOther3{
+    background-color: #FF8811;
+    clip-path: polygon(36% 67%, 33% 53%, 35% 45%, 44% 34%, 50% 32%, 60% 41%, 61% 32%, 73% 32%, 69% 36%, 65% 35%, 64% 47%, 59% 50%, 62% 65%, 56% 56%, 53% 65%, 51% 65%, 53% 50%, 47% 50%, 43% 57%, 45% 66%, 43% 66%, 40% 57%, 38% 66%);
+    z-index:-1; 
+    left:870px; 
+    bottom: 90px;
+    width: 100px;
+    height: 100px;
+}
+
