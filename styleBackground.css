@@ -83,12 +83,12 @@
     height: 170px;
 }
 
-.polyOther3{
+.polyOther3{ /* cammello */
     background-color: #FF8811;
     clip-path: polygon(36% 67%, 33% 53%, 35% 45%, 44% 34%, 50% 32%, 60% 41%, 61% 32%, 73% 32%, 69% 36%, 65% 35%, 64% 47%, 59% 50%, 62% 65%, 56% 56%, 53% 65%, 51% 65%, 53% 50%, 47% 50%, 43% 57%, 45% 66%, 43% 66%, 40% 57%, 38% 66%);
     z-index:-1; 
-    left:870px; 
-    bottom: 90px;
+    left:820px; 
+    bottom: 50px;
     width: 100px;
     height: 100px;
 }

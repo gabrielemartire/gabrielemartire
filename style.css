@@ -5,7 +5,6 @@ padding: ⇅  ⇄
 padding: ⥁
 */
 
-
 * {
     font-family: 'Comfortaa', cursive;
     color: #EBEBEB;
@@ -113,13 +112,17 @@ img {
 
     /* contenitore area portfolio */
 .portfolioBox{
+
     width: 50%;
+    height: 635px;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;  
+    align-items: center;
     overflow-y:scroll;
     /* height: auto; commentato, testare se tutto ok */
-    max-height: 750px;
+     /* max-height: 750px; /* fa una bella animazione con lo scroll */
+    padding-top: 20px;
 
 }
 /*VISUALIZZAZIONE DA MOBILE*/  /*quando è minore di ***px*/ 
@@ -133,8 +136,8 @@ img {
 /* schede nel portfolio */
 .portfolioBox button {
     cursor: pointer;
-    width: 170px;
-    height: 250px;
+    width: 240px;
+    height: 450px;
     border-radius: 10px;
     text-shadow: 1px 1px 5px #03120ea8;
     font-size: 15px;
@@ -145,15 +148,17 @@ img {
 /*VISUALIZZAZIONE DA MOBILE*/  /*quando è minore di ***px*/ 
 @media (max-width: 600px) {.portfolioBox button {   width: 85%; } }
 
+/* schede nel portfolio: passaggio mouse */
+.portfolioBox button:hover {
+    box-shadow: -5px -5px 1px rgb(255, 136, 17);
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 /* transition-duration: 0.7s;
     transition-property: color, box-shadow;*/
 
-.portfolioBox button:hover {
-    box-shadow: -5px -5px 1px rgba(255, 136, 17, 0.3);
-}
-
 /* background schede rgb(62, 80, 91);*/
-.square1 { background-color: #03120E;}
+.square1 { background-color:#03120E;}
 .square2 { background-color:#03120E; }
 .square3 { background-color:#03120E; }
 .square4 { background-image: url("preview/preview (2).jpg"); }
@@ -161,6 +166,16 @@ img {
 .square6 { background-image: url("preview/preview (4).jpg"); }
 .square7 { background-image: url("preview/preview (5).jpg"); }
 .square8 { background-image: url("preview/preview (6).jpg"); }
+
+/* tutte le carte portfolio */
+.square{
+    transition: transform 0.4s; /* Animation */
+}
+
+/* banner Portfolio */
+.banner { 
+    background-color: rgb(255, 136, 17);
+}
 
 /* animazione per le prime 2 schede extra portfolio */
 .skillsList {
@@ -180,21 +195,10 @@ img {
     transition-property: color, box-shadow; } */
 
 /*VISUALIZZAZIONE DA LAPTOP*/
-@media (max-width: 1200px) { /*quando è minore di 1200px*/
-
-}
-
+@media (max-width: 1200px) { /*quando è minore di 1200px*/ }
 /*VISUALIZZAZIONE DA TABLET*/
-@media (max-width: 980px) { /*quando è minore di 980px*/
-
-}
-
+@media (max-width: 980px) { /*quando è minore di 980px*/ }
 /*VISUALIZZAZIONE DA MOBILE ORIZZONTALE*/
-@media (max-width: 767px) { /*quando è minore di 767px*/
-
-}
-
+@media (max-width: 767px) { /*quando è minore di 767px*/ }
 /*VISUALIZZAZIONE DA MOBILE VERTICALE*/
-@media (max-width: 480px) { /*quando è minore di 480px*/
-
-}
+@media (max-width: 480px) { /*quando è minore di 480px*/ }
