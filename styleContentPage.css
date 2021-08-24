@@ -1,0 +1,75 @@
+
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+body {
+    display:flex;
+   /* overflow-y: hidden;*/
+    overflow-x: hidden; /* blocca  lo scroll orizzontale */ 
+    background-color: #1A1D1A;
+}
+
+.backgroundButton {
+    width: 1px;/*1500px;*/
+    height: 1px;
+}
+
+/* animazione link */
+a:link { /* unvisited link */ color: #EBEBEB; text-decoration: none;}
+a:visited { /* visited link */ color: #EBEBEB; text-decoration: none;}
+a:hover { /* mouse over link */ text-decoration: underline; }
+
+/*
+padding: ↑  →  ↓  ←     
+padding: ↑  ⇄  ↓
+padding: ⇅  ⇄
+padding: ⥁
+*/
+
+    /* info box a sinistra */ 
+.Box {
+    width: 70%;
+    height: auto;
+    margin: 100px 15% auto;
+    background-color: #03120E;
+    box-shadow: -10px -10px 1px rgba(255, 136, 17, 0.3);
+     /* shadow     →     ↓   ☁ */
+    border-radius: 10px;
+    color: #EBEBEB;
+    padding: 3% 5% 4%;
+}
+
+.polyBack div{
+    position: absolute;
+}
+
+.polyOther1{
+    background-color: #FF8811;
+    clip-path: polygon(44% 58%, 53% 59%, 54% 57%, 58% 59%, 63% 56%, 78% 58%, 67% 60%, 60% 65%, 60% 71%, 54% 64%, 46% 63%, 32% 63%);
+    z-index:-1; 
+    left: 5%; 
+    top: 300px;
+    width: 200px;
+    height: 200px;
+}
+
+.polyOther2{
+    background-color: #FF8811;
+    clip-path: polygon(44% 58%, 53% 59%, 54% 57%, 58% 59%, 63% 56%, 78% 58%, 67% 60%, 60% 65%, 60% 71%, 54% 64%, 46% 63%, 32% 63%);
+    z-index:-1; 
+    left: 2%; 
+    top: 380px;
+    width: 170px;
+    height: 170px;
+}
+
+.polySun{
+    background-color: #d4d4dc;
+    clip-path: circle(50% at 50% 50%);
+    z-index:-4; 
+    left: 100px; 
+    top: 100px;
+    width: 500px;
+    height: 500px;
+}

@@ -1,16 +1,21 @@
+/*
+padding: ↑  →  ↓  ←     
+padding: ↑  ⇄  ↓
+padding: ⇅  ⇄
+padding: ⥁
+*/
+
 
 * {
     font-family: 'Comfortaa', cursive;
+    color: #EBEBEB;
 }
 
 body {
     display:flex;
-   /* overflow-y: hidden;*/
     overflow-x: hidden; /* blocca  lo scroll orizzontale */ 
     background-color: #1A1D1A;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 100%;
+    margin:0px;   
 }
 
 .backgroundButton {
@@ -23,28 +28,18 @@ a:link { /* unvisited link */ color: #EBEBEB; text-decoration: none;}
 a:visited { /* visited link */ color: #EBEBEB; text-decoration: none;}
 a:hover { /* mouse over link */ text-decoration: underline; }
 
-/* logo GM */
-.logoProfile {
-    font-family: 'Lobster', cursive;
-    font-size: 40px;
-    color: #1A1D1A;
-    letter-spacing: -1px;
-}
-
 /* container generale */
 .container {
+    border: 2px green solid;
     display:flex;
-    color: #EBEBEB;
-    width: 100%;/*1500px;*/
-    height: 700px;
-    margin-top: 100px;
-    margin-bottom: 30px;
-/*    margin-right: 100px;
-    margin-left: 100px;*/
-    padding: 0% 7%;
+    width: 100%;
+    height: 100%;
     justify-content: center;
-    flex-wrap: wrap; 
+    align-items: flex-start; /* item partono dall'alto */
+    margin-top: 5%; /* un po di spazio sopra */
 }
+/*VISUALIZZAZIONE DA MOBILE*/  /*quando è minore di ***px*/ 
+@media (max-width: 600px) {.container { flex-wrap: wrap;} }
 
 /* row my name */
 .myName {
@@ -53,7 +48,7 @@ a:hover { /* mouse over link */ text-decoration: underline; }
 }
 
 /* | lampeggiante */
-.blinkText { animation: blinker 1s linear infinite; } /* blink */
+.blinkText { animation: blinker 1s linear infinite; color: #FF8811; } /* blink */
 @keyframes blinker { 50% { opacity: 0; } } /* blink */
 
 /* il mio lavoro  */
@@ -63,16 +58,19 @@ a:hover { /* mouse over link */ text-decoration: underline; }
 
     /* info box a sinistra */ 
 .infoBox {
+    border: 2px rgb(4, 0, 255) solid;
     display: flex;
-    width: 350px;
+    width: 98%;
+    max-width: 350px;
     height: 100%;
     flex-direction:column;
     text-align: center;
     box-shadow: -10px -10px 1px rgba(255, 136, 17, 0.3);
-     /* shadow    🡆   🡇   ☁ */
-    background-color: #03120E;;
+     /* shadow     🡆    🡇   ☁ */
+    background-color: #03120E;
     border-radius: 10px;
 }
+@media (max-width: 600px) {.infoBox a { font-size: 18px; line-height: 1.8; } }
 
     /* foto profilo */
 .picProfile {
@@ -90,12 +88,13 @@ img {
     position: relative;
     margin-top: -50px;
 }
+/*VISUALIZZAZIONE DA MOBILE*/  /*quando è minore di ***px*/ 
+@media (max-width: 1169px) {img { position: unset; margin-top: unset; } }
 
     /* write to me link */
 .writeToMe{
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0);
-    color: rgb(255, 255, 255);
     border: none;
     font-size: 16px;
 }
@@ -116,45 +115,45 @@ img {
 
     /* contenitore area portfolio */
 .portfolioBox{
-    display:flex;
-    padding: 0 2%; /*margin-right: 7%;*/
-    height: 80%;
-    min-width: 380px; /* 550 px */
+    border: 2px rgb(255, 0, 0) solid;
     width: 50%;
-    flex-wrap: wrap; /* abilita gestione di "a capo"  laterale */
-    justify-content: space-around; /* space-evenly modalità di "a capo" centrato */
-    align-items: flex-start;
-    overflow-y: auto; /* blocca il contenuto e mi fa scrollare la sezione */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    overflow-y:scroll;
+    /* height: auto; commentato, testare se tutto ok */
+    max-height: 750px;
+
 }
+/*VISUALIZZAZIONE DA MOBILE*/  /*quando è minore di ***px*/ 
+@media (max-width: 600px) {.portfolioBox { max-height: unset; overflow-y: unset; } }
+@media (max-width: 432PX) {.portfolioBox { width: unset; } }
+ 
 
 /* design scrollbar verticale portfolioBox */
 #style-4::-webkit-scrollbar { width: 0px; }
 
 /* schede nel portfolio */
 .portfolioBox button {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
     cursor: pointer;
-    max-width: 170px;
-    min-width: 170px;
-    max-height: 250px;
-    min-height: 250px;
+    width: 170px;
+    height: 250px;
     border-radius: 10px;
-    padding-left: 7px;
-    color: #EBEBEB;
-    text-shadow: 5px 5px #03120eb0;
-    font-size: 16px;
+    text-shadow: 1px 1px 5px #03120ea8;
+    font-size: 15px;
     border: none;
-    padding-top: 10px;
-    padding-left: 5px; /* margine tra bordo e contenuto */
-    margin: 10px; /* margine esterno */
-    margin-bottom: 10px;
+    padding-top: -20px;
+    margin: 10px;
 }
+/*VISUALIZZAZIONE DA MOBILE*/  /*quando è minore di ***px*/ 
+@media (max-width: 600px) {.portfolioBox button {   width: 85%; } }
+
+/* transition-duration: 0.7s;
+    transition-property: color, box-shadow;*/
 
 .portfolioBox button:hover {
     box-shadow: -5px -5px 1px rgba(255, 136, 17, 0.3);
-  }
+}
 
 /* background schede rgb(62, 80, 91);*/
 .square1 { background-color: #03120E;}
@@ -174,149 +173,31 @@ img {
 }
 
 .skillsList li {
-text-align: left;
-margin: 10px 0;
+    margin: 10px 0;
 }
 
-/* tutti i bottoni filtro */
-.filters button {
-    display:flex;
-    border: 0px;
-    background-color: rgba(255, 255, 255, 0);
-    justify-content: flex-start;
-    /*margin-left: -25px;*/
-    align-items: center;
-  }
-
-  /* contenitore dei filtri */
-.filters{
-    align-items: center;
-    flex-direction:column;
-}
-
-/* icone filtri */
-.iconFilter{
-    height: auto;
-    font-size: 25px;
-    margin: 0;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-/* testo filtri */
-.textFilter{
-    width: 60px;
-    font-size: 18px; 
-    color: rgba(0,0,0,0);
-    align-items: center;
-    margin: 0;
-    cursor: pointer;
-}
-
-/* quando passi sull'icona filtro → animazione testo filtro */
+/* evento verso altro oggetto e proprietà transition
 .iconFilter:hover + .textFilter {
     color: #FF8811;
      transition-duration: 0.7s;
-    transition-property: color, box-shadow;
+    transition-property: color, box-shadow; } */
+
+/*VISUALIZZAZIONE DA LAPTOP*/
+@media (max-width: 1200px) { /*quando è minore di 1200px*/
+
 }
 
-/* animazione testo filtro */
-.textFilter:hover{
-    color: #FF8811;
-    transition-duration: 0.7s;
-    transition-property: color, box-shadow,background-color;
+/*VISUALIZZAZIONE DA TABLET*/
+@media (max-width: 980px) { /*quando è minore di 980px*/
+
 }
 
-/* tutti gli elementi del contenitore polyBack */
-.polyBack div{
-    position: absolute;
+/*VISUALIZZAZIONE DA MOBILE ORIZZONTALE*/
+@media (max-width: 767px) { /*quando è minore di 767px*/
+
 }
 
-/*
-.polyMoun1{ background-color: #3E505B; clip-path: polygon(67% 0, 0 100%, 100% 100%); z-index:-3; left: -10px; bottom: -10px; width: 600px; height: 700px; }
-.polyMoun2{ background-color: #3E505B; clip-path: polygon(42% 0, 16% 100%, 100% 100%); z-index:-3; left: -10px; bottom: -10px; width: 900px; height: 800px; }
-.polyMoun3{ background-color: #4b5f6b; clip-path: polygon(61% 40%, 16% 100%, 78% 100%); z-index:-2; left: -10px; bottom: -10px; width: 900px; height: 800px; }
-.polyMoun4{ background-color: #3E505B; clip-path: polygon(89% 16%, 24% 100%, 100% 100%); z-index:-3;  right: -30px; bottom: -10px; width: 900px; height: 800px; }
-.polyMoun5{ background-color: #4b5f6b; clip-path: polygon(50% 58%, 24% 100%, 100% 100%); z-index:-2;  right: -10px; bottom: -10px; width: 900px; height: 800px; }
-*/
+/*VISUALIZZAZIONE DA MOBILE VERTICALE*/
+@media (max-width: 480px) { /*quando è minore di 480px*/
 
-.polyMoun2{ /* duna 1 */
-    background-color: #728d9e;
-    clip-path: polygon(90% 70%, 0 100%, 100% 100%);
-    z-index:-3;
-    left: -730px;
-    bottom: 0px;
-    width: 900px;
-    height: 800px;
 }
-
-.polyMoun3{ /* duna 1 */
-    background-color: #3E505B;
-    clip-path: polygon(10% 70%, 20% 100%, 100% 100%);
-    z-index:-2;
-    left: -10px;
-    bottom: 0px;
-    width: 900px;
-    height: 800px;
-}
- 
-.polyMoun4{ /* duna 2 */
-    background-color: #728d9e;
-    clip-path: polygon(70% 80%, 0 100%, 100% 100%);
-    z-index:-3; 
-    left: 360px;
-    bottom: 0px;
-    width: 900px;
-    height: 800px;
-}
-
-.polyMoun5{ /* duna 2 */
-    background-color: #3E505B;
-    clip-path: polygon(10% 80%, 30% 100%, 100% 100%);
-    z-index:-2; 
-    left: 900px;
-    bottom: 0px;
-    width: 900px;
-    height: 800px;
-}
-
-.polySun{
-    background-color: #d4d4dc;
-    clip-path: circle(50% at 50% 50%);
-    z-index:-4; 
-    left: 100px; 
-    top: 100px;
-    width: 500px;
-    height: 500px;
-}
-
-.polyOther1{
-    background-color: #FF8811;
-    clip-path: polygon(44% 58%, 53% 59%, 54% 57%, 58% 59%, 63% 56%, 78% 58%, 67% 60%, 60% 65%, 60% 71%, 54% 64%, 46% 63%, 32% 63%);
-    z-index:-1; 
-    left: 5%; 
-    top: 300px;
-    width: 200px;
-    height: 200px;
-}
-
-.polyOther2{
-    background-color: #FF8811;
-    clip-path: polygon(44% 58%, 53% 59%, 54% 57%, 58% 59%, 63% 56%, 78% 58%, 67% 60%, 60% 65%, 60% 71%, 54% 64%, 46% 63%, 32% 63%);
-    z-index:-1; 
-    left: 2%; 
-    top: 380px;
-    width: 170px;
-    height: 170px;
-}
-
-.polyOther3{
-    background-color: #FF8811;
-    clip-path: polygon(36% 67%, 33% 53%, 35% 45%, 44% 34%, 50% 32%, 60% 41%, 61% 32%, 73% 32%, 69% 36%, 65% 35%, 64% 47%, 59% 50%, 62% 65%, 56% 56%, 53% 65%, 51% 65%, 53% 50%, 47% 50%, 43% 57%, 45% 66%, 43% 66%, 40% 57%, 38% 66%);
-    z-index:-1; 
-    left:870px; 
-    bottom: 90px;
-    width: 100px;
-    height: 100px;
-}
-
