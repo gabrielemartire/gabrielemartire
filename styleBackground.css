@@ -3,6 +3,8 @@
     position: absolute;
 }
 
+
+
 /*
 .polyMoun1{ background-color: #3E505B; clip-path: polygon(67% 0, 0 100%, 100% 100%); z-index:-3; left: -10px; bottom: -10px; width: 600px; height: 700px; }
 .polyMoun2{ background-color: #3E505B; clip-path: polygon(42% 0, 16% 100%, 100% 100%); z-index:-3; left: -10px; bottom: -10px; width: 900px; height: 800px; }
@@ -89,4 +91,9 @@
     bottom: 90px;
     width: 100px;
     height: 100px;
+}
+
+
+@media (max-width: 1200px) { .polyBack div { width: 0; height: 0px;}
+
 }
