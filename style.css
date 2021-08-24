@@ -30,7 +30,6 @@ a:hover { /* mouse over link */ text-decoration: underline; }
 
 /* container generale */
 .container {
-    border: 2px green solid;
     display:flex;
     width: 100%;
     height: 100%;
@@ -58,7 +57,6 @@ a:hover { /* mouse over link */ text-decoration: underline; }
 
     /* info box a sinistra */ 
 .infoBox {
-    border: 2px rgb(4, 0, 255) solid;
     display: flex;
     width: 98%;
     max-width: 350px;
@@ -115,7 +113,6 @@ img {
 
     /* contenitore area portfolio */
 .portfolioBox{
-    border: 2px rgb(255, 0, 0) solid;
     width: 50%;
     display:flex;
     flex-wrap: wrap;
