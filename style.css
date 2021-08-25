@@ -127,7 +127,7 @@ img {
 }
 /*VISUALIZZAZIONE DA MOBILE*/  /*quando è minore di ***px*/ 
 @media (max-width: 600px) {.portfolioBox { max-height: unset; overflow-y: unset; } }
-@media (max-width: 432PX) {.portfolioBox { width: unset; } }
+@media (max-width: 430px) {.portfolioBox { width: unset; } }
  
 
 /* design scrollbar verticale portfolioBox */
@@ -161,11 +161,7 @@ img {
 .square1 { background-color:#03120E;}
 .square2 { background-color:#03120E; }
 .square3 { background-color:#03120E; }
-.square4 { background-image: url("preview/preview (2).jpg"); }
-.square5 { background-image: url("preview/preview (3).jpg"); }
 .square6 { background-image: url("preview/preview (4).jpg"); }
-.square7 { background-image: url("preview/preview (5).jpg"); }
-.square8 { background-image: url("preview/preview (6).jpg"); }
 
 /* tutte le carte portfolio */
 .square{
