@@ -8,6 +8,7 @@ body {
    /* overflow-y: hidden;*/
     overflow-x: hidden; /* blocca  lo scroll orizzontale */ 
     background-color: #1A1D1A;
+
 }
 
 .backgroundButton {
@@ -28,9 +29,10 @@ padding: ⥁
 */
 
 .Box {
-    width: 70%;
+
+    width: 60%;
     height: auto;
-    margin: 40px 4% 0% auto;
+    margin: 40px 4% 0% 15%;
     background-color: #03120E;
     box-shadow: -10px -10px 1px rgba(255, 136, 17, 0.3);
      /* shadow     →     ↓   ☁ */
@@ -38,7 +40,7 @@ padding: ⥁
     color: #EBEBEB;
     padding: 3% 5% 4%;
 }
-@media (max-width: 600px) {.Box { width: 98%; margin-top: 40px; margin-left: 2%; } }
+@media (max-width: 600px) {.Box { width: 98%; margin-top: 40px; margin-left: 2%; margin-right: auto; } }
 
 
 

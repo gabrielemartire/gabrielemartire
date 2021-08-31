@@ -14,7 +14,8 @@ body {
     display:flex;
     overflow-x: hidden; /* blocca  lo scroll orizzontale */ 
     background-color: #1A1D1A;
-    margin:0px;   
+    margin:0px;
+    height: 100%;
 }
 
 .backgroundButton {
@@ -29,14 +30,15 @@ a:hover { /* mouse over link */ text-decoration: underline; }
 
 /* container generale */
 .container {
+
     display:flex;
     width: 100%;
     height: 100%;
     justify-content: center;
-    margin-top: 5%; /* un po di spazio sopra */
+    padding: 6%;
 }
 /*VISUALIZZAZIONE DA MOBILE*/  /*quando è minore di ***px*/ 
-@media (max-width: 600px) {.container { flex-wrap: wrap;} }
+@media (max-width: 700px) { .container { flex-wrap: wrap;} }
 
 /* row my name */
 .myName {
@@ -55,9 +57,9 @@ a:hover { /* mouse over link */ text-decoration: underline; }
 
     /* info box a sinistra */ 
 .infoBox {
+
     display: flex;
-    width: 98%;
-    max-width: 350px;
+    min-width: 320px;
     height: 100%;
     flex-direction:column;
     text-align: center;
@@ -67,7 +69,7 @@ a:hover { /* mouse over link */ text-decoration: underline; }
     border-radius: 10px;
 }
 @media (max-width: 600px) {.infoBox a { font-size: 18px; line-height: 1.8; } }
-
+                                                        /* spaziatura */
     /* foto profilo */
 .picProfile {
     width: 125px;
@@ -111,6 +113,7 @@ img {
 
     /* contenitore area portfolio */
 .portfolioBox{
+
     width: auto;
     height: 635px;
     display:flex;
@@ -120,12 +123,11 @@ img {
     overflow-y:scroll;
     /* height: auto; commentato, testare se tutto ok */
      /* max-height: 750px; /* fa una bella animazione con lo scroll */
-    padding-top: 20px;
-
+    padding: 20px 3% none;
 }
 /*VISUALIZZAZIONE DA MOBILE*/  /*quando è minore di ***px*/ 
-@media (max-width: 600px) {.portfolioBox { max-height: unset; overflow-y: unset; } }
-@media (max-width: 430px) {.portfolioBox { width: unset; } }
+@media (max-width: 700px) {.portfolioBox { max-height: unset; overflow-y: unset; } }
+@media (max-width: 430px) {.portfolioBox { width: unset; height: 100%; } }
  
 
 /* design scrollbar verticale portfolioBox */
@@ -144,14 +146,13 @@ img {
     margin: 10px;
 }
 /*VISUALIZZAZIONE DA MOBILE*/  /*quando è minore di ***px*/ 
-@media (max-width: 600px) {.portfolioBox button {   width: 85%; } }
+@media (max-width: 700px) {   .portfolioBox button { width: 85%; transform: none; box-shadow: none; transition: none;} }
 
 /* schede nel portfolio: passaggio mouse */
 .portfolioBox button:hover {
-    box-shadow: -5px -5px 1px rgb(255, 136, 17);
-    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    box-shadow: -3px -3px 6px rgb(255, 136, 17);
+    transition: 1.4s;
 }
-
 /* transition-duration: 0.7s;
     transition-property: color, box-shadow;*/
 
