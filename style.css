@@ -29,11 +29,11 @@ a:hover { /* mouse over link */ text-decoration: underline; }
 
 /* container generale */
 .container {
+    border: 2px red solid;
     display:flex;
     width: 100%;
     height: 100%;
     justify-content: center;
-    align-items: flex-start; /* item partono dall'alto */
     margin-top: 5%; /* un po di spazio sopra */
 }
 /*VISUALIZZAZIONE DA MOBILE*/  /*quando è minore di ***px*/ 
@@ -56,6 +56,7 @@ a:hover { /* mouse over link */ text-decoration: underline; }
 
     /* info box a sinistra */ 
 .infoBox {
+    border: 2px rgb(0, 255, 0) solid;
     display: flex;
     width: 98%;
     max-width: 350px;
@@ -112,8 +113,8 @@ img {
 
     /* contenitore area portfolio */
 .portfolioBox{
-
-    width: 50%;
+    border: 2px rgb(47, 0, 255) solid;
+    width: auto;
     height: 635px;
     display:flex;
     flex-wrap: wrap;
