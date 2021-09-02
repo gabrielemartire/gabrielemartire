@@ -57,7 +57,6 @@ a:hover { /* mouse over link */ text-decoration: underline; }
 
     /* info box a sinistra */ 
 .infoBox {
-
     display: flex;
     min-width: 320px;
     height: 100%;
@@ -113,7 +112,6 @@ img {
 
     /* contenitore area portfolio */
 .portfolioBox{
-
     width: auto;
     height: 635px;
     display:flex;
