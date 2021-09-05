@@ -24,13 +24,16 @@ body {
 }
 
 /* animazione link */
-a:link { /* unvisited link */ color: #EBEBEB; text-decoration: none;}
-a:visited { /* visited link */ color: #EBEBEB; text-decoration: none;}
-a:hover { /* mouse over link */ text-decoration: underline; }
+.infoBoxLink:link { /* unvisited link */ color: #EBEBEB; text-decoration: none;}
+.infoBoxLink:visited { /* visited link */ color: #EBEBEB; text-decoration: none;}
+.infoBoxLink:hover { /* mouse over link */ text-decoration: underline; }
 
+
+a {
+    text-decoration: none;
+}
 /* container generale */
 .container {
-
     display:flex;
     width: 100%;
     height: 100%;
@@ -117,7 +120,9 @@ img {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;  
-    align-items: center;
+    align-items:flex-start;
+    align-content: flex-start;
+    align-self: baseline; /* | stretch;*/
     overflow-y:scroll;
     /* height: auto; commentato, testare se tutto ok */
      /* max-height: 750px; /* fa una bella animazione con lo scroll */
@@ -132,7 +137,7 @@ img {
 #style-4::-webkit-scrollbar { width: 0px; }
 
 /* schede nel portfolio */
-.portfolioBox button {
+.portfolioBox .squareMain {
     cursor: pointer;
     width: 240px;
     height: 450px;
@@ -144,10 +149,10 @@ img {
     margin: 10px;
 }
 /*VISUALIZZAZIONE DA MOBILE*/  /*quando è minore di ***px*/ 
-@media (max-width: 700px) {   .portfolioBox button { width: 85%; transform: none; box-shadow: none; transition: none;} }
+@media (max-width: 700px) { .portfolioBox a { width: 85%; transform: none; box-shadow: none; transition: none;} }
 
 /* schede nel portfolio: passaggio mouse */
-.portfolioBox button:hover {
+.portfolioBox a:hover {
     box-shadow: -3px -3px 6px rgb(255, 136, 17);
     transition: 1.4s;
 }
@@ -164,6 +169,8 @@ img {
 .square{
     transition: transform 0.4s; /* Animation */
 }
+
+
 
 /* banner Portfolio */
 .banner { 
