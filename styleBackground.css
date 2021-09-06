@@ -16,7 +16,7 @@
 .polyMoun2{ /* duna 1 */
     background-color: #728d9e;
     clip-path: polygon(90% 70%, 0 100%, 100% 100%);
-    z-index:-3;
+    z-index:-2;
     left: -730px;
     bottom: 0px;
     width: 900px;
@@ -37,7 +37,7 @@
     background-color: #728d9e;
     clip-path: polygon(70% 80%, 0 100%, 100% 100%);
     z-index:-3; 
-    left: 360px;
+    right: 540px;
     bottom: 0px;
     width: 900px;
     height: 800px;
@@ -46,8 +46,8 @@
 .polyMoun5{ /* duna 2 */
     background-color: #3E505B;
     clip-path: polygon(10% 80%, 30% 100%, 100% 100%);
-    z-index:-2; 
-    left: 900px;
+    z-index:-3; 
+    right: 0px;
     bottom: 0px;
     width: 900px;
     height: 800px;
@@ -94,4 +94,4 @@
 }
 
 
-@media (max-width: 700px) { .polyBack div { width: 0; height: 0px;} }
+@media (max-width: 1200px) { .polyBack div { width: 0; height: 0px;} }

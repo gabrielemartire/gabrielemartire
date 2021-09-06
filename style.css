@@ -113,6 +113,7 @@ img {
     /* contenitore area portfolio */
 .portfolioBox{
     width: auto;
+    max-width: 1000px;
     height: 635px;
     display:flex;
     flex-wrap: wrap;
