@@ -5,9 +5,10 @@ padding: ⇅  ⇄
 padding: ⥁
 */
 
-* {
+*, *::before, *::after {
     font-family: 'Comfortaa', cursive;
     color: #EBEBEB;
+    box-sizing: border-box;
 }
 
 body {
@@ -54,6 +55,11 @@ a:hover { /* mouse over link */ text-decoration: underline; }
 .myTask {
     color: #FF8811;
 }
+
+.numPhoneWhatsApp:link { /* unvisited link */ color: #EBEBEB; text-decoration: none;}
+.numPhoneWhatsApp:visited { /* visited link */ color: #EBEBEB; text-decoration: none;}
+.numPhoneWhatsApp:hover { /* mouse over link */ color:rgb(76,211,96); text-decoration: underline; }
+
 
     /* info box a sinistra */ 
 .infoBox {
@@ -127,7 +133,6 @@ img {
 /*VISUALIZZAZIONE DA MOBILE*/  /*quando è minore di ***px*/ 
 @media (max-width: 700px) {.portfolioBox { max-height: unset; overflow-y: unset; } }
 @media (max-width: 430px) {.portfolioBox { width: unset; height: 100%; } }
- 
 
 /* design scrollbar verticale portfolioBox */
 #style-4::-webkit-scrollbar { width: 0px; }

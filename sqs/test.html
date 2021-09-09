@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT | garbielemartire</title>
+    <link rel="stylesheet" href="../styleContentPage.css">
+    <link rel="stylesheet" href="../styleBackground.css">
+    <!-- Font Page -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+<!-- end Font Page -->
+</head>
+<body>
+<a class='backgroundButton' href="../index.html">back</a>
+    <div class='Box'>
+
+        <div class="container">
+            <h1 class="neonText">h1</h1>  
+            <h2>h2</h2>      
+        </div>
+
+         <style>
+            .neonText {
+            animation: flicker 1.5s infinite alternate;
+            color: #fff;
+            }
+
+            h2{
+                animation: flicker2 1s infinite alternate;
+                font-size: 5.2rem;   
+                color: #06241c; 
+            }
+
+            h1 {
+            font-size: 4.2rem;    
+            }
+
+            /* Flickering animation */
+            @keyframes flicker {
+                0%, 18%, 22%, 25%, 53%, 57%, 100% {
+                    text-shadow:
+                    0 0 4px #fff,
+                    0 0 11px #fff,
+                    0 0 19px #fff,
+                    0 0 40px #0fa,
+                    0 0 80px #0fa,
+                    0 0 90px #0fa,
+                    0 0 100px #0fa,
+                    0 0 150px #0fa;
+                }
+                20%, 24%, 55% {        
+                    text-shadow: none;
+                }    
+            }
+
+
+             /* Flickering animation */
+             @keyframes flicker2 {
+                0%, 18%, 22%, 25%, 53%, 80% {
+                    text-shadow:
+                    0 0 4px #fff,
+                    0 0 11px #fff,
+                    0 0 19px #fff,
+                    0 0 40px #0fa,
+                    0 0 80px #0fa,
+                    0 0 90px #0fa,
+                    0 0 100px #0fa,
+                    0 0 150px #0fa;
+                }
+                20%, 24%, 55%, 83%, 100%{        
+                    text-shadow: none;
+                }    
+            }
+         </style>
+
+    </div>
+    <div class='polyBack'>
+    <div class="polyOther1"></div>
+    <div class="polyOther2"></div>
+    <div class="polySun"></div>   
+    </div> 
+    
+</body>
+</html>
