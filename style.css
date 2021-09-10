@@ -24,6 +24,11 @@ body {
     height: 1px;
 }
 
+.switchDarkLight{
+    margin-right: 1px;
+    margin-left: auto;
+}
+
 /* animazione link */
 a:link { /* unvisited link */ color: #EBEBEB; text-decoration: none;}
 a:visited { /* visited link */ color: #EBEBEB; text-decoration: none;}
@@ -125,17 +130,19 @@ img {
     flex-wrap: wrap;
     justify-content: space-around;  
     align-items: center;
-    overflow-y:scroll;
-    /* height: auto; commentato, testare se tutto ok */
-     /* max-height: 750px; /* fa una bella animazione con lo scroll */
     padding: 20px 3% none;
+    overflow-y:scroll;
+    /* Animation scroll bar for Firefox */
+    scrollbar-color: #FF8811 #03120E;
+    scrollbar-width: thin;
+    /* End Animation scroll bar for Firefox */
 }
-/*VISUALIZZAZIONE DA MOBILE*/  /*quando è minore di ***px*/ 
 @media (max-width: 700px) {.portfolioBox { max-height: unset; overflow-y: unset; } }
 @media (max-width: 430px) {.portfolioBox { width: unset; height: 100%; } }
+    /* width */ #style-4::-webkit-scrollbar { width: 2px; }
+    /* Track */ #style-4::-webkit-scrollbar-track { background: #03120E; }
+    /* Handle */ #style-4::-webkit-scrollbar-thumb { background: #FF8811; border-radius: 10px; }
 
-/* design scrollbar verticale portfolioBox */
-#style-4::-webkit-scrollbar { width: 0px; }
 
 /* schede nel portfolio */
 .portfolioBox a {
