@@ -1,6 +1,6 @@
 /* tutti gli elementi del contenitore polyBack */
 .polyBack div{
-    position: absolute;
+    position: fixed;
 }
 
 
@@ -13,7 +13,7 @@
 .polyMoun5{ background-color: #4b5f6b; clip-path: polygon(50% 58%, 24% 100%, 100% 100%); z-index:-2;  right: -10px; bottom: -10px; width: 900px; height: 800px; }
 */
 
-.polyMoun2{ /* duna 1 */
+.polyMoun2{ /* duna sinistra */
     background-color: #728d9e;
     clip-path: polygon(90% 70%, 0 100%, 100% 100%);
     z-index:-2;
@@ -23,7 +23,7 @@
     height: 800px;
 }
 
-.polyMoun3{ /* duna 1 */
+.polyMoun3{ /* duna sinistra */
     background-color: #3E505B;
     clip-path: polygon(10% 70%, 20% 100%, 100% 100%);
     z-index:-2;
@@ -33,21 +33,21 @@
     height: 800px;
 }
  
-.polyMoun4{ /* duna 2 */
+.polyMoun4{ /* duna destra */
     background-color: #728d9e;
     clip-path: polygon(70% 80%, 0 100%, 100% 100%);
     z-index:-3; 
-    right: 540px;
+    left: 760px;
     bottom: 0px;
     width: 900px;
     height: 800px;
 }
 
-.polyMoun5{ /* duna 2 */
+.polyMoun5{ /* duna destra */
     background-color: #3E505B;
     clip-path: polygon(10% 80%, 30% 100%, 100% 100%);
     z-index:-3; 
-    right: 0px;
+    left: 1300px;
     bottom: 0px;
     width: 900px;
     height: 800px;
@@ -87,11 +87,8 @@
     background-color: #FF8811;
     clip-path: polygon(36% 67%, 33% 53%, 35% 45%, 44% 34%, 50% 32%, 60% 41%, 61% 32%, 73% 32%, 69% 36%, 65% 35%, 64% 47%, 59% 50%, 62% 65%, 56% 56%, 53% 65%, 51% 65%, 53% 50%, 47% 50%, 43% 57%, 45% 66%, 43% 66%, 40% 57%, 38% 66%);
     z-index:-1; 
-    left:820px; 
+    left: 1200px; 
     bottom: 50px;
     width: 100px;
     height: 100px;
 }
-
-
-@media (max-width: 1200px) { .polyBack div { width: 0; height: 0px;} }
