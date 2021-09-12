@@ -159,7 +159,7 @@ img {
     padding: 15px;
 }
 /*VISUALIZZAZIONE DA MOBILE*/  /*quando è minore di ***px*/ 
-@media (max-width: 700px) {   .portfolioBox button { width: 85%; transform: none; box-shadow: none; transition: none;} }
+@media (max-width: 700px) { .portfolioBox a { width: 320px; transform: none; box-shadow: none; transition: none;} }
 
 /* schede nel portfolio: passaggio mouse */
 .portfolioBox a:hover {
@@ -173,7 +173,7 @@ img {
 .squareSkills { background-color:#03120E;}
 .squarePath { background-color:#03120E; }
 .squarePortfolio { background-color:#03120E; }
-.squareMe { background-image: url("preview/preview (4).jpg"); }
+.squareMe { background-image: url("img/preview\ \(4\).jpg"); }
 
 /* tutte le carte portfolio */
 .square{
@@ -187,6 +187,7 @@ img {
 /* banner Portfolio */
 .banner { 
     background-color: rgb(255, 136, 17);
+    
 }
 
 /* animazione per le prime 2 schede extra portfolio */

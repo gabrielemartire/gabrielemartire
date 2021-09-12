@@ -1,0 +1,64 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(245, 5, 5);
+    flex-wrap: wrap;
+    justify-content:space-around;
+
+}
+
+[class*='col-'] {
+    margin: 2px;
+}
+.col-1-2{
+    flex: 0 0 24%; 
+    background-color: aquamarine;
+}
+
+.col-2 {
+    flex: 0 0 49%; 
+    background-color: rgb(133, 133, 238);
+}
+
+.col-1{
+    background-color: rgb(209, 164, 132);
+}
+
+.col-3{
+    background-color: rgb(236, 149, 203);
+}
+
+.col-4 {
+    background-color: rgb(147, 224, 164);
+    flex: 0 0 100%;
+}
+
+div img {
+	width: 100%;
+	max-width: 250px;
+    min-width: 250px; 
+}
+
+@media (max-width: 1420px)  {
+    .col-1-2{
+        flex: 0 0 40%; 
+    }
+}
+
+@media (max-width: 1420px)  {
+    .col-1-2{
+        flex: 0 0 49%; 
+    }
+
+}
+
+
+@media (max-width: 930px)  {
+    [class*='col-'] {
+        flex: 0 0 100%;
+    }
+}

@@ -1,0 +1,100 @@
+.wrapper{
+    display: grid;
+    grid-gap: 1px 1px; /* spessore righe - colonne */
+}
+
+article{
+    background-color: rgb(208, 241, 146);
+    border: darkslateblue solid 1px;
+}
+
+@media (min-width: 435px) { /*da 778 a salire*/
+    .wrapper {
+        grid-template-columns: repeat(2, 1fr); /*la gestione delle colonne sarà, divise per 2 e ognuna grande 1 frazione */
+        grid-template-rows: repeat(6, auto);
+    }
+    .r1c1{ grid-column: 1/2; }
+    .r1c2{ grid-column: 2/3; }
+    .r1c3{ grid-column: 1/2; }  
+    .r2c1{ grid-column: 2/3; } 
+    .r2c2{ grid-column: 2/3; } 
+    .r3c1{ grid-column: 1/3; }  
+    .r4c2{ grid-column: 1/2; } 
+}
+
+/*DESKTOP - da 768 a salire*/
+/* tu qua gli dici solo */
+@media (min-width: 768px) { 
+    .r1c1{ grid-column: 1/2; }
+    .r1c2{ grid-column: 2/3; }
+    .r1c3{ grid-column: 3/4; }  
+    .r2c1{ grid-column: 1/2; }
+    .r2c2{ grid-column: 2/3; } 
+    .r3c1{ grid-column: 2/3; }  
+    .r4c2{ grid-column: 2/4; } 
+}
+
+/* WRAPPER 2 */
+
+.wrapper2 {
+    display: grid;
+    grid-gap: 2px 2px; /* spessore righe - colonne */
+     grid-template-columns: [colonna1] 400px [colonna2] 12fr; /* qui dai un nome alla colonna e ne decidi la larghezza */
+    /* grid-template-columns: repeat(3, 400px [stesso-nome]) 20%; /* qui crei 3 colonne con lo stesso nome, larghe 400px + un 20% di spazio alla fine */
+    grid-template-rows: 550px 1fr auto;
+}
+
+.p2r1c1{ grid-column: 1/2; grid-row: 1/2; }
+.p2r1c2{ grid-column: 2/3; grid-row: 1/2; }
+.p2r1c3{ grid-column: 1/2; grid-row: 2/3; }  
+.p2r2c1{ grid-column: 2/3; grid-row: 3/4; } 
+
+
+/* WRAPPER 3 */ 
+.wrapper3{
+    display: grid;
+    grid-gap: 1px 1px; /* spessore righe - colonne */
+    grid-template-columns: auto; 
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header"
+    "aside"
+    "article";
+}
+
+.p3h1{
+    background-color: rgb(86, 255, 114);
+    grid-area: header;
+}
+
+.p3a1c1{
+    background-color: brown;
+    grid-area: aside;
+}
+
+.p3r2c3{
+    background-color: cornflowerblue;
+    grid-area: article;
+}
+
+.p3r2c4{
+    background-color: greenyellow;
+    grid-area: article;
+}
+
+@media (min-width: 500px) {
+    .wrapper3{
+        grid-template-columns: 1fr 3fr;
+        grid-template-areas: 
+        "article article"
+        "aside header";
+    }
+}
+
+@media (min-width: 768px) {
+    .wrapper3{
+        grid-template-areas: 
+        "header header header header"
+        "aside . article article";
+    }
+}

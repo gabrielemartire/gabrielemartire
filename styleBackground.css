@@ -3,8 +3,10 @@
     position: fixed;
 }
 
-
-
+.polyBack a{
+    cursor: pointer; 
+    position: fixed;
+}
 /*
 .polyMoun1{ background-color: #3E505B; clip-path: polygon(67% 0, 0 100%, 100% 100%); z-index:-3; left: -10px; bottom: -10px; width: 600px; height: 700px; }
 .polyMoun2{ background-color: #3E505B; clip-path: polygon(42% 0, 16% 100%, 100% 100%); z-index:-3; left: -10px; bottom: -10px; width: 900px; height: 800px; }
@@ -37,7 +39,7 @@
     background-color: #728d9e;
     clip-path: polygon(70% 80%, 0 100%, 100% 100%);
     z-index:-3; 
-    left: 760px;
+    left: 730px;
     bottom: 0px;
     width: 900px;
     height: 800px;
@@ -47,7 +49,7 @@
     background-color: #3E505B;
     clip-path: polygon(10% 80%, 30% 100%, 100% 100%);
     z-index:-3; 
-    left: 1300px;
+    left: 1270px;
     bottom: 0px;
     width: 900px;
     height: 800px;
@@ -86,7 +88,7 @@
 .polyOther3{ /* cammello */
     background-color: #FF8811;
     clip-path: polygon(36% 67%, 33% 53%, 35% 45%, 44% 34%, 50% 32%, 60% 41%, 61% 32%, 73% 32%, 69% 36%, 65% 35%, 64% 47%, 59% 50%, 62% 65%, 56% 56%, 53% 65%, 51% 65%, 53% 50%, 47% 50%, 43% 57%, 45% 66%, 43% 66%, 40% 57%, 38% 66%);
-    z-index:-1; 
+    z-index:2; 
     left: 1200px; 
     bottom: 50px;
     width: 100px;

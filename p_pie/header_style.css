@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    background-image: url(./ex_4/img/clouds.png);
+}
+
+/* FONTS */
+li{
+    font-family: 'Niconne', cursive;
+    font-weight: normal;
+    color: rgb(200, 0, 96);
+}
+
+.wrapper{
+    margin: 60px 200px;
+}
+
+.scallop{
+    background-repeat: repeat;
+}
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    background: rgb(230, 191, 146);
+    margin-top: -5px;
+}
+
+li{
+    padding: 20px;
+}
+
+.mainPage{
+    display: flex;
+    background: rgb(250,244,219);
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+h1{
+    font-family: "Brush Script MT";
+    font-size: 50px;
+    color: rgb(253, 110, 134);
+    padding: 2px 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px rgb(253, 110, 134)  dotted;
+}
+
+h2{
+    font-family: "Brush Script MT";
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding: 2px 20px;
+    margin-bottom: 20px;
+}
+
+.me{
+    border-radius: 8%;
+    float: left;
+}
+
+.descr{
+    flex: 0 0 60%;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 20px;
+}
+
+.descrMain{
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.news{
+    flex: 0 0 30%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.news{
+    margin: 10px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.testimonial{
+    border: rgb(0,203,200) 2px solid;
+    background-color: rgb(250,244,219);
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.testimonial h2{
+    border: 2px rgb(253, 0, 0) solid;
+    background-color: rgb(0,203,200);
+    border-radius: 18px 18px 0px 0px;
+}
+
+p {
+    padding: 0 20px 20px 20px;
+}
+
+.PftM h2{
+    border-radius: 20px;
+}
+
+.PftM{
+    background-color: rgb(211,0,93);
+    margin: 20px;
+    border-radius: 20px;
+    padding: 0px 2px -1px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.PftmPic {
+    border-radius: 0px 0px 20px 20px;
+    width: 100%;
+    max-width: 250px;
+}
+
+.classFooter{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 20%;
+    border: 1px solid black;
+}
+
+.rowFooter{
+    display: flex;
+    flex-flow: row nowrap;
+}
