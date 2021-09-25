@@ -201,6 +201,21 @@ img {
     margin: 10px 0;
 }
 
+.code {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid rgb(255, 136, 17);
+    color: #666;
+    font-family: monospace;
+    margin: 7px -8px;
+    font-size: 15px;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1px 2px;
+    word-wrap: break-word;
+}
+
+
 /* evento verso altro oggetto e proprietà transition
 .iconFilter:hover + .textFilter {
     color: #FF8811;
