@@ -38,9 +38,6 @@ padding: ⥁
 */
 
 .Box {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
     width: 60%;
     height: auto;
     margin: 10px 4% 3% 15%;
@@ -52,12 +49,6 @@ padding: ⥁
 }
 @media (max-width: 600px) {.Box { width: 98%; margin-top: 40px; margin-left: 2%; margin-right: auto; } }
 
-
-p {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-}
 
 .polyBack div{
     position: absolute;
