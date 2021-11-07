@@ -19,12 +19,17 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./styleBackground.css">
 
+    <!-- import annotate -->
+    <script>import { annotate } from 'https://unpkg.com/rough-notation?module';</script>
+
     <!-- Panelbear Analytics - We respect your privacy -->
     <script async src="https://cdn.panelbear.com/analytics.js?site=6AoDHCgUIlv"></script>
     <script>
         window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
         panelbear('config', { site: '6AoDHCgUIlv' });
     </script>
+
+    
 </head>
 
 <body>
@@ -102,7 +107,7 @@
 
                 <a class="square squarePortfolio" href="#" style="pointer-events: none">
                     <p class='banner'>this website</p>
-                    my personal website made without any framework 
+                    my website made without any framework 
                     <br><br>
                     HTML5 <br>CSS3 (flexbox) <br> @media <br> W3School
                     <br><br>
@@ -115,6 +120,13 @@
                 <a class="square squareSkills" href="./pages/test.html">
                     <ul class='skillsList'>
                         <span>next step</span>
+                        <br>
+                        <script>
+                            const F12 = document.querySelector('strong');
+                            const F12_annotate = annotate(F12, { type: 'circle', color: '#FF8811', padding: 10 });
+                            F12_annotate.show();
+                        </script>
+                        <strong>F12</strong>
                     </ul>
                 </a>
 
