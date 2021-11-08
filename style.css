@@ -187,7 +187,7 @@ img {
 /* banner Portfolio */
 .banner { 
     background-color: rgb(255, 136, 17);
-    
+    margin-top: -6px;
 }
 
 /* animazione per le prime 2 schede extra portfolio */
@@ -215,7 +215,6 @@ img {
     word-wrap: break-word;
 }
 
-
 /* evento verso altro oggetto e proprietà transition
 .iconFilter:hover + .textFilter {
     color: #FF8811;
@@ -230,3 +229,55 @@ img {
 @media (max-width: 767px) { /*quando è minore di 767px*/ }
 /*VISUALIZZAZIONE DA MOBILE VERTICALE*/
 @media (max-width: 480px) { /*quando è minore di 480px*/ }
+
+
+        .neonText {
+        animation: flicker 1.5s infinite alternate;
+        color: rgb(255, 136, 17);
+        }
+
+        h2{
+            animation: flicker2 1s infinite alternate;
+            font-size: 5.2rem;   
+            color: rgb(255, 136, 17);
+        }
+
+        h1 {
+        font-size: 4.2rem;    
+        }
+
+        /* Flickering animation */
+        @keyframes flicker {
+            0%, 18%, 22%, 25%, 53%, 57%, 100% {
+                text-shadow:
+                0 0 4px #fff,
+                0 0 11px #fff,
+                0 0 19px #fff,
+                0 0 40px rgb(255, 136, 17),
+                0 0 80px rgb(255, 136, 17),
+                0 0 90px rgb(255, 136, 17),
+                0 0 100px rgb(255, 136, 17),
+                0 0 150px rgb(255, 136, 17);
+            }
+            20%, 24%, 55% {        
+                text-shadow: none;
+            }    
+        }
+         /* Flickering animation */
+        @keyframes flicker2 {
+           0%, 18%, 22%, 25%, 53%, 80% {
+               text-shadow:
+               0 0 4px #fff,
+               0 0 11px #fff,
+               0 0 19px #fff,
+               0 0 40px rgb(255, 136, 17),
+               0 0 80px rgb(255, 136, 17),
+               0 0 90px rgb(255, 136, 17),
+               0 0 100px rgb(255, 136, 17),
+               0 0 150px rgb(255, 136, 17);
+           }
+           20%, 24%, 55%, 83%, 100%{    
+               color: rgb(139, 76, 13);    
+               text-shadow: none;
+           }    
+        }

@@ -19,21 +19,15 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./styleBackground.css">
 
-    <script src="script_import.js"></script>
+    <!-- script_import.j -->
+    <script type="module" src="script_import.js"></script>
 
-    <!-- import annotate -->
-    <script>import { annotate } from 'https://unpkg.com/rough-notation?module';</script>
-
-    <!-- Panelbear Analytics - We respect your privacy -->
+    <!-- Panelbear Analytics - We respect your privacy
     <script async src="https://cdn.panelbear.com/analytics.js?site=6AoDHCgUIlv"></script>
     <script>
         window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
         panelbear('config', { site: '6AoDHCgUIlv' });
-    </script>
-
-
-
-    
+    </script> -->
 </head>
 
 <body>
@@ -73,103 +67,94 @@
             <p><a href="./doc/CV_Martire_2021.pdf" download="Curriculum Martire">📥 Download CV </a></p>
         </div>
 
-     
-            <div class='portfolioBox' id='style-4'>
-                <a class="square squareSkills" href="./pages/mySkills.html">
-                    <ul class='skillsList'>
-                        <span>🌵 My Web Dev Skills</span>
-                        <li>Don't Panic</li>
-                        <li>Ruby / Ruby on Rails</li>
-                        <li>HTML / CSS / JS</li>
-                        <li>React</li>
-                        <li>Docker</li>
-                        <li>iOS base</li>
-                    </ul>
-                </a>
+            <!-- My Web Dev Skills -->
+        <div class='portfolioBox' id='style-4'>
+            <a class="square squareSkills" href="./pages/mySkills.html">
+                <ul class='skillsList'>
+                    <span>🌵 My Web Dev Skills</span>
+                    <li>Don't Panic</li>
+                    <li>Ruby / Ruby on Rails</li>
+                    <li>HTML / CSS / JS</li>
+                    <li>React</li>
+                    <li>Docker</li>
+                    <li>iOS base</li>
+                </ul>
+            </a>
+            
+            <!-- I’m learning on.. -->
+            <a class="square squarePath" href="./pages/myPath.html">   
+                <ul class='skillsList'>
+                    🌱 I’m learning on..
+                    <li>frontendmasters.com</li>
+                    <li>wesbos.com</li>
+                    <li>udemy.com</li>
+                    <br>
+                    <span class='myTask'>this website dev progress:<b class='myTask'> 33%</b></span>
+                </ul>
+            </a>
 
-                <a class="square squarePath" href="./pages/myPath.html">   
-                    <ul class='skillsList'>
-                        🌱 I’m learning on..
-                        <li>frontendmasters.com</li>
-                        <li>wesbos.com</li>
-                        <li>udemy.com</li>
-                        <br>
-                        <span class='myTask'>this website dev progress:<b class='myTask'> 33%</b></span>
-                    </ul>
-                </a>
+            <!-- My Engineer Skills -->
+            <a class="square squareSkills" href="./pages/PLCSkills.html">
+                <ul class='skillsList'>
+                    <span>My Engineer Skills</span>
+                    <li>Don't Panic</li>
+                    <li>Automation Engineer</li>
+                    <li>HMI/SCADA</li>
+                    <li>VMware</li>
+                    <li>Windos 10 base</li>
+                </ul>
+            </a>
 
-                <a class="square squareSkills" href="./pages/PLCSkills.html">
-                    <ul class='skillsList'>
-                        <span>My Engineer Skills</span>
-                        <li>Don't Panic</li>
-                        <li>Automation Engineer</li>
-                        <li>HMI/SCADA</li>
-                        <li>VMware</li>
-                        <li>Windos 10 base</li>
-                    </ul>
-                </a>
-
-                <a class="square squarePortfolio" href="#" style="pointer-events: none">
-                    <p class='banner'>this website</p>
-                    my website made without any framework 
-                    <br><br>
-                    HTML5 <br>CSS3 (flexbox) <br> @media <br> W3School
-                    <br><br>
-                    Background made with:
-                    <blockquote class='code'>
+            <!-- this website -->
+            <a class="square squarePortfolio" href="#" style="pointer-events: none">
+                <p class='banner'>myportfolio/</p>
+                flexbox / @media 
+                W3School <br>
+                Background with:
+                <blockquote class='code'>
                     clip-path: polygon(...)
                 </blockquote>
-                </a>
+                <!-- <h1 class="neonText">h1</h1>   -->
+                <h2>h2</h2>      
+            </a>
 
-                <a class="square squareSkills" href="./pages/test.html">
-                    <ul class='skillsList'>
-                        <span>next step</span>
-                        <br>
-                        <script>
-                            const F12 = document.querySelector('strong');
-                            const F12_annotate = annotate(F12, { type: 'circle', color: '#FF8811', padding: 10 });
-                            F12_annotate.show();
-                        </script>
-                        <strong>F12</strong>
-                    </ul>
-                </a>
+            <!-- esercizio note con import libreria -->
+            <a class="square squarePortfolio" href="./page_notes/notes.html">
+                <p class='banner'>from FrontendMasters</p>
+                NOTE
+                <br><br>
+                HTML5 <br>CSS3 (flexbox) <br> @media <br> npm / import libs
+            </a>
 
-                <a class="square squarePortfolio" href="https://gabbros101.github.io/ex1_Twitter/">
-                    <p class='banner'>exercise from FrontendMasters</p>
-                    reactive menu from twitter using flexbox 
-                    <br><br>
-                    HTML5 <br>CSS3 (flexbox) <br> @media <br> npm / import libs
-                </a>
+            <!-- Calculator -->
+            <a class="square squarePortfolio" href="./p_Calcolatrice/index.html">
+                <p class='banner'>from FrontendMasters</p>
+                Calculator
+                <br><br>
+                HTML5 <br> CSS3 (flexbox) <br>JavaScript (DOM)
 
-                <a class="square squarePortfolio" href="./p_Calcolatrice/index.html">
-                    <p class='banner'>exercise from FrontendMasters</p>
-                    Calculator
-                    <br><br>
-                    HTML5 <br> CSS3 (flexbox) <br>JavaScript (DOM)
-                </a>
+            </a>
 
-                <a class="square squarePortfolio" target="_blank" href="./p_pie/Home.html">
-                    <p class='banner'>exercise from FrontendMasters</p>
-                    blog with flexbox / grid 
-                    <br><br>
-                    HTML5 <br>CSS3 (flexbox/grid) <br> img manipulation <br> @media
-                </a>
+            <!-- blog with flexbox / grid -->
+            <a class="square squarePortfolio" target="_blank" href="./p_pie/Home.html">
+                <p class='banner'>from FrontendMasters</p>
+                blog with flexbox / grid 
+                <br><br>
+                HTML5 <br>CSS3 (flexbox/grid) <br> img manipulation <br> @media
+            </a>
+        </div> 
 
-            </div> 
-
-        <!-- background element polygon -->
-        <div class='polyBack'>
-            <div class="poly polyMoun1"></div> 
-            <div class="poly polyMoun2"></div> 
-            <div class="poly polyMoun3"></div> 
-            <div class="poly polyMoun4"></div> 
-            <div class="poly polyMoun5"></div> 
-            <div class="poly polySun"></div>   
-            <div class="poly polyOther1"></div>
-            <div class="poly polyOther2"></div>
-            <a href="./pages/test.html" class="poly polyOther3">
-                </a>
-            
+    <!-- background element polygon -->
+    <div class='polyBack'>
+        <div class="poly polyMoun1"></div> 
+        <div class="poly polyMoun2"></div> 
+        <div class="poly polyMoun3"></div> 
+        <div class="poly polyMoun4"></div> 
+        <div class="poly polyMoun5"></div> 
+        <div class="poly polySun"></div>   
+        <div class="poly polyOther1"></div>
+        <div class="poly polyOther2"></div>
+        <a href="./pages/test.html" class="poly polyOther3"></a>
     </div>      
 
         <!--    http*=" .PDF"
