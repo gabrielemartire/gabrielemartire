@@ -20,9 +20,12 @@ body {
     font-size: 30px;
 }
 
-.backgroundButton {
+a {
     width: 1px;/*1500px;*/
     height: 1px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 8px;
 }
 
 /* animazione link */
@@ -50,7 +53,9 @@ padding: ⥁
     border-radius: 10px;
     padding: 3% 5% 4%;
 }
-@media (max-width: 600px) {.Box { width: 98%; margin-top: 40px; margin-left: 2%; margin-right: auto; } }
+@media (max-width: 600px) {
+    .Box { width: 98%; margin-top: 40px; margin-left: 2%; margin-right: auto; }
+}
 
 
 p {

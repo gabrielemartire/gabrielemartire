@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+	<style>
+
+    .loader {
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 10s linear infinite;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+    }
+      
+    .r1 {
+        border: 5px solid #f3f3f3;
+        border-top: 5px solid #3498db;
+        border-left: 5px solid #3498db3d;
+        animation: spin 10s linear infinite;
+        }
+
+    .r2 {
+        border: 6px solid #f3f3f3;
+        border-top: 6px solid #3f5b3e;
+        border-left: 6px solid #3f5b3e;
+        animation: spin 21s linear infinite;
+    }
+      
+    .r3 {
+        border: 3px solid #f3f3f3;
+        border-top: 3px solid #c7913f;
+        border-left: 3px solid #c7913f3d;
+        animation: spin 8s linear infinite;
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        20% { transform: rotate(190deg); }
+        60% { transform: rotate(70deg); }
+        100% { transform: rotate(360deg); }
+    }
+    </style>
+
+    <body>
+        <div class="loader r1"></div>
+        <div class="loader r2"></div>
+        <div class="loader r3"></div>
+    </body>
+
+</html>
