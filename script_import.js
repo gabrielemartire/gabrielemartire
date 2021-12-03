@@ -1,4 +1,3 @@
-console.log('%c____________________________', 'background: rgb(182, 178, 175) ');
 console.log('%c| .----------------------. |', 'background: rgb(182, 178, 175) ');
 console.log('%c| |  .----------------.  | |', 'background: rgb(182, 178, 175) ');
 console.log('%c| |  |%c                %c|  | |', 'background: rgb(182, 178, 175)' , 'background: rgb(135, 158, 88)', 'background: rgb(182, 178, 175)');
