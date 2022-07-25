@@ -6,15 +6,15 @@ padding: ⥁
 */
 
 *, *::before, *::after {
-    font-family: 'Comfortaa', cursive;
-    color: #EBEBEB;
     box-sizing: border-box;
 }
 
 body {
+    font-family: 'Comfortaa', cursive;
     display:flex;
     overflow-x: hidden; /* blocca  lo scroll orizzontale */ 
     background-color: #1A1D1A;
+    color: #EBEBEB;
     margin:0px;
     height: 100%;
 }
@@ -63,7 +63,7 @@ a:hover { /* mouse over link */ text-decoration: underline; }
 
 .numPhoneWhatsApp:link { /* unvisited link */ color: #EBEBEB; text-decoration: none;}
 .numPhoneWhatsApp:visited { /* visited link */ color: #EBEBEB; text-decoration: none;}
-.numPhoneWhatsApp:hover { /* mouse over link */ color:rgb(0, 136, 204); text-decoration: underline; }
+.numPhoneWhatsApp:hover { /* mouse over link */ color:rgb(0, 136, 204); text-decoration: underline;}
 
 
     /* info box a sinistra */ 
@@ -105,10 +105,12 @@ img {
     background-color: rgba(255, 255, 255, 0);
     border: none;
     font-size: 16px;
+    color: #EBEBEB;
+    text-decoration: none;
 }
-.writeToMe:link { /* unvisited link */ color: #EBEBEB; text-decoration: none;}
-.writeToMe:visited { /* visited link */ color: #EBEBEB; text-decoration: none;}
-.writeToMe:hover { /* mouse over link */ text-decoration: underline; }
+.writeToMe:link { /* unvisited link */ text-decoration: none;}
+.writeToMe:visited { /* visited link */ text-decoration: none;}
+.writeToMe:hover { /* mouse over link */ text-decoration: underline;}
 
     /* Tweet to me link */
 .TweetToMe{
@@ -116,10 +118,18 @@ img {
     background-color: rgba(255, 255, 255, 0);
     border: none;
     font-size: 16px;
+    text-decoration: none;
 }
 .TweetToMe:link { /* unvisited link */ color: #EBEBEB; text-decoration: none;}
 .TweetToMe:visited { /* visited link */ color: #EBEBEB; text-decoration: none;}
-.TweetToMe:hover { /* mouse over link */ color: #00acee; text-decoration: underline; }
+.TweetToMe:hover { /* mouse over link */ color: #00acee; text-decoration: underline;}
+
+
+.linkedin:link { /* unvisited link */ color: #EBEBEB; text-decoration: none;}
+.linkedin:visited { /* visited link */ color: #EBEBEB; text-decoration: none;}
+.linkedin:hover { /* mouse over link */ color: #0A66C2; text-decoration: underline;}
+
+
 
     /* contenitore area portfolio */
 .portfolioBox{
