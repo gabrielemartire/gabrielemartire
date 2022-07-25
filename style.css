@@ -63,7 +63,7 @@ a:hover { /* mouse over link */ text-decoration: underline; }
 
 .numPhoneWhatsApp:link { /* unvisited link */ color: #EBEBEB; text-decoration: none;}
 .numPhoneWhatsApp:visited { /* visited link */ color: #EBEBEB; text-decoration: none;}
-.numPhoneWhatsApp:hover { /* mouse over link */ color:rgb(76,211,96); text-decoration: underline; }
+.numPhoneWhatsApp:hover { /* mouse over link */ color:rgb(0, 136, 204); text-decoration: underline; }
 
 
     /* info box a sinistra */ 
@@ -187,6 +187,7 @@ img {
 /* banner Portfolio */
 .banner { 
     background-color: rgb(255, 136, 17);
+    color: #03120E;
     margin-top: -6px;
 }
 
