@@ -1,12 +1,13 @@
 * {
     font-family: 'Comfortaa', cursive;
-    color: #EBEBEB;
+    
 }
 
 body {
    /* overflow-y: hidden;*/
     overflow-x: hidden; /* blocca  lo scroll orizzontale */ 
     background-color: #1A1D1A;
+    color: #EBEBEB;
 }
 
 .wrapper{
@@ -29,9 +30,13 @@ a {
 }
 
 /* animazione link */
-a:link { /* unvisited link */ color: #EBEBEB; text-decoration: none;}
-a:visited { /* visited link */ color: #EBEBEB; text-decoration: none;}
+a:link { /* unvisited link */ color: #EBEBEB; text-decoration: none; }
+a:visited { /* visited link */ color: #EBEBEB; text-decoration: none; }
 a:hover { /* mouse over link */ text-decoration: underline; }
+
+.codeWar:link { /* unvisited link */ color: #EBEBEB; text-decoration: none;}
+.codeWar:visited { /* visited link */ color: #EBEBEB; text-decoration: none;}
+.codeWar:hover { /* mouse over link */ color: #b1361e; text-decoration: underline; }
 
 /*
 padding: ↑  →  ↓  ←     
