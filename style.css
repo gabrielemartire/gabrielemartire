@@ -17,6 +17,16 @@ body {
     color: #EBEBEB;
     margin:0px;
     height: 100%;
+    animation-name: FromDusk;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+/* the keyframe animation */
+@keyframes FromDusk {
+    0%    {background-color: #1A1D1A;       left:0px; top:-100px;}
+    50%  {background-color: #154853;       left:0px; top:600px;}
+    100%   {background-color: #1A1D1A;       left:0px; top:-100px;}
 }
 
 .backgroundButton {

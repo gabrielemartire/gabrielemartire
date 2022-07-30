@@ -23,6 +23,23 @@
     bottom: 0px;
     width: 900px;
     height: 800px;
+    position: relative;
+    animation-name: moveMouLeft;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+/* the keyframe animation */
+@keyframes moveMouLeft {
+    0%    {background-color: #728d9e;   }
+    50%  {background-color: #c8be54;    }
+    100%   {background-color: #728d9e;  }
+}
+
+@keyframes moveMouRight {
+    0%    {background-color: #3E505B; }
+    50%  {background-color: #8a9037;}
+    100%   {background-color: #3E505B;}
 }
 
 .polyMoun3{ /* duna sinistra */
@@ -33,6 +50,10 @@
     bottom: 0px;
     width: 900px;
     height: 800px;
+    position: relative;
+    animation-name: moveMouRight;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
 }
  
 .polyMoun4{ /* duna destra */
@@ -43,6 +64,10 @@
     bottom: 0px;
     width: 900px;
     height: 800px;
+    position: relative;
+    animation-name: moveMouLeft;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
 }
 
 .polyMoun5{ /* duna destra */
@@ -53,6 +78,10 @@
     bottom: 0px;
     width: 900px;
     height: 800px;
+    position: relative;
+    animation-name: moveMouRight;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
 }
 
 .polySun{
@@ -63,6 +92,17 @@
     top: 100px;
     width: 500px;
     height: 500px;
+    position: relative;
+    animation-name: moveSun;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+/* the keyframe animation */
+@keyframes moveSun {
+    0%    {background-color: #d4d4dc;       left:0px; top:-100px;}
+    50%  {background-color: #d46e45;       left:200px; top:500px;}
+    100%   {background-color: #d4d4dc;       left:0px; top:-100px;}
 }
 
 .polyOther1{
@@ -88,7 +128,7 @@
 .polyOther3{ /* cammello */
     background-color: #FF8811;
     clip-path: polygon(36% 67%, 33% 53%, 35% 45%, 44% 34%, 50% 32%, 60% 41%, 61% 32%, 73% 32%, 69% 36%, 65% 35%, 64% 47%, 59% 50%, 62% 65%, 56% 56%, 53% 65%, 51% 65%, 53% 50%, 47% 50%, 43% 57%, 45% 66%, 43% 66%, 40% 57%, 38% 66%);
-    z-index:2; 
+    z-index:-1; 
     left: 1200px; 
     bottom: 50px;
     width: 100px;
