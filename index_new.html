@@ -7,7 +7,7 @@
     <title>gabrielemartire</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script type="module" src="./main_script.js"></script>
+    <script src="./main_script.js" defer></script>
     <script
       type="module"
       src="https://unpkg.com/rough-notation?module"
@@ -56,52 +56,54 @@
       type="module"
       src="https://unpkg.com/rough-notation?module"
     ></script>
-    <nav
-      class="navbar navbar-dark navbar-expand-lg bg-body-tertiary bg-dark fixed-top"
-      data-bs-theme="dark"
-    >
-      <div class="container-fluid flex-lg-column">
-        <span class="h3 fw-bold d-block m-lg-4">Gabriele</span>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <div class="d-flex flex-row">
+          <a class="nav-link navbar-toggler icon-nav-link" href="#home"
+            ><i class="fa-solid fa-paper-plane"></i
+          ></a>
+          <a class="nav-link navbar-toggler icon-nav-link" href="#career"
+            ><i class="fa-solid fa-paper-plane"></i
+          ></a>
+          <a class="nav-link navbar-toggler icon-nav-link" href="#project"
+            ><i class="fa-solid fa-paper-plane"></i
+          ></a>
+          <a class="nav-link navbar-toggler icon-nav-link" href="#education"
+            ><i class="fa-solid fa-paper-plane"></i
+          ></a>
+        </div>
+        <a class="navbar-brand" href="#">Gabriele</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link focus-home" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link focus-services" href="#services">service</a>
+              <a class="nav-link focus-services" href="#career">career</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link focus-work" href="#work">works</a>
+              <a class="nav-link focus-project" href="#project">projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link focus-about" href="#about">about</a>
+              <a class="nav-link focus-education" href="#education"
+                >education</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link focus-preview" href="#preview">preview</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link focus-blog" href="#blog">blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link focus-contact" href="#contact">contact</a>
+              <a class="nav-link focus-preview" href="./index.html">1.0</a>
             </li>
           </ul>
+          <div class="d-flex" role="search">
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </div>
         </div>
       </div>
     </nav>
 
-    <!-- content -->
     <!-- content wrapper -->
     <div id="content-wrapper">
       <!-- home -->
@@ -110,157 +112,192 @@
           <div class="row">
             <div class="col-lg-8">
               <h1 class="display-4 fw-bold" data-aos="fade-up">
-                I'M <span class="text-brand">BLABLA</span> BLABLA
+                hi, I'm <span class="text-brand">Gabriele</span>
               </h1>
-              <p class="lead mt-2 mb-4">heyyyyyyyyyyyyyyy come va</p>
-              <a href="#" class="btn btn-brand me-3">PUSHME</a>
-              <a href="#" class="link-custom">telephone number 388 95 15 439</a>
+              <p class="lead mt-2 mb-4">and I'm a web developer</p>
+              <a href="#" class="btn btn-brand me-3">don't push me</a>
             </div>
           </div>
         </div>
       </section>
-      <!-- services -->
-      <section id="services" class="full-height px-lg-5">
+
+      <!-- career -->
+      <section id="career" class="full-height px-lg-5">
         <div class="container">
           <div class="row pb-4">
             <div class="col-lg-8">
-              <h6 class="text-brand">SERVICES</h6>
-              <h1>services that i proveded</h1>
+              <h6 class="text-brand">career</h6>
+              <h1>career that i proveded</h1>
             </div>
           </div>
 
           <div class="row gy-4">
-            <!-- branding 1 -->
+            <!-- job 1 -->
+            <div class="col-md-6" data-aos="flip-up" data-aos-delay="0">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+                <h4 class="mt-4 mb-2">web developer</h4>
+                <p>text text text text text text</p>
+                <a href="#" class="link-custom">read more</a>
+              </div>
+            </div>
+            <!-- job 2 -->
+            <div class="col-md-6" data-aos="flip-up" data-aos-delay="300">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+                <h4 class="mt-4 mb-2">automation and managment engineering</h4>
+                <p>text text text text text text</p>
+                <a href="#" class="link-custom">read more</a>
+                </br>
+                <i class="fa-brands fa-twitter"></i>
+                <h3 class="mt-4 mb-2">clienti</h4>
+                <i class="fa-brands fa-twitter"></i>
+                <p>text text text text text text</p>
+                <i class="fa-brands fa-twitter"></i>
+                <p>text text text text text text</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- my freelance projects -->
+      <section id="project" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4">
+            <div class="col-lg-8">
+              <h6 class="text-brand">my freelance project</h6>
+              <h1>my freelance project</h1>
+            </div>
+          </div>
+          <div class="row gy-4">
+            <div class="col-lg-6 mb-3">
+              <div
+                class="card-custom rounded-4 bg-base shadow-effect"
+                data-aos="fade-up"
+              >
+                <div class="card-custom-image rounded-4">
+                  <img src="./img/33grid-main-page.png" alt="imgPRJ" />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Supabase</h4>
+                  <p>
+                    orem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent facilisis, nulla eget fermentum porttitor, eros
+                    sapien ultricies mauris, at scelerisque ante mi nec nulla.
+                    In placerat finibus molestie. Pellentesque nec sapien eget
+                    ante maximus rhoncus. Integer a nunc sed lorem pretium
+                    maximus at vitae sem. Morbi tincidunt tortor vel ullamcorper
+                    pellentesque. Vestibulum nunc felis, laoreet vel lobortis.
+                  </p>
+                  <span class="badge text-bg-secondary">supabase</span>
+                  <span class="badge text-bg-secondary">Rails</span>
+                  <a href="#" class="link-custom">supabase.com</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- spacetraders -->
+            <div class="col-lg-6 mb-3">
+              <div
+                class="card-custom rounded-4 bg-base shadow-effect"
+                data-aos="fade-up"
+              >
+                <div class="card-custom-image rounded-4">
+                  <img src="./img/33grid-main-page.png" alt="imgPRJ" />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>spacetraders</h4>
+                  <p>
+                    orem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent facilisis, nulla eget fermentum porttitor, eros
+                    sapien ultricies mauris, at scelerisque ante mi nec nulla.
+                    In placerat finibus molestie. Pellentesque nec sapien eget
+                    ante maximus rhoncus. Integer a nunc sed lorem pretium.
+                  </p>
+                  <span class="badge text-bg-secondary">API</span>
+                  <span class="badge text-bg-secondary">JS</span>
+                  <a href="https://docs.spacetraders.io/quickstart/first-mission" class="link-custom">spacetraders.io</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- notification ideas -->
+            <div class="col-lg-6 mb-3">
+              <div
+                class="card-custom rounded-4 bg-base shadow-effect"
+                data-aos="fade-up"
+              >
+                <div class="card-custom-image rounded-4">
+                  <img src="./img/33grid-main-page.png" alt="imgPRJ" />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Notification</h4>
+                  <p>
+                    orem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent facilisis, nulla eget fermentum porttitor, eros
+                    sapien ultricies mauris, at scelerisque ante mi nec nulla.
+                  </p>
+                  <span class="badge text-bg-secondary">Bootstrap</span>
+                  <a href="https://docs.spacetraders.io/quickstart/first-mission" class="link-custom">spacetraders.io</a>
+                  <br>
+
+                  <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+                  <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                      <div class="toast-header">
+                        <img src="..." class="rounded me-2" alt="...">
+                        <strong class="me-auto">Bootstrap</strong>
+                        <small>11 mins ago</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                      </div>
+                      <div class="toast-body">
+                        Hello, world! This is a toast message.
+                      </div>
+                    </div>
+                  </div
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- services
+      <section id="services" class="full-height px-lg-5" display="none">
+        <div class="container">
+          <div class="row pb-4">
+            <div class="col-lg-8">
+              <h6 class="text-brand">EDUCATION AND SKILLS</h6>
+              <h1>services that i proveded</h1>
+            </div>
+          </div>
+          <div class="row gy-4">
             <div class="col-md-4" data-aos="flip-up" data-aos-delay="0">
               <div class="service p-4 bg-base rounded-4 shadow-effect">
                 <div class="iconbox rounded-4">
                   <i class="fa-brands fa-twitter"></i>
                 </div>
-                <h4 class="mt-4 mb-2">branding</h4>
-                <p>text text text text text text</p>
-                <a href="#" class="link-custom">read more</a>
-              </div>
-            </div>
-            <!-- brandiing 2 -->
-            <div class="col-md-4" data-aos="flip-up" data-aos-delay="300">
-              <div class="service p-4 bg-base rounded-4 shadow-effect">
-                <div class="iconbox rounded-4">
-                  <i class="fa-brands fa-twitter"></i>
-                </div>
-                <h4 class="mt-4 mb-2">branding</h4>
-                <p>text text text text text text</p>
-                <a href="#" class="link-custom">read more</a>
-              </div>
-            </div>
-            <!-- branding 3-->
-            <div class="col-md-4" data-aos="flip-up" data-aos-delay="600">
-              <div class="service p-4 bg-base rounded-4 shadow-effect">
-                <div class="iconbox rounded-4">
-                  <i class="fa-brands fa-twitter"></i>
-                </div>
-                <h4 class="mt-4 mb-2">branding</h4>
+                <h4 class="mt-4 mb-2">Laurea</h4>
                 <p>text text text text text text</p>
                 <a href="#" class="link-custom">read more</a>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- works -->
-      <section class="full-height px-lg-5" id="work">
+      </section> -->
+
+      <!-- My Education -->
+      <section id="education" class="full-height px-lg-5">
         <div class="container">
           <div class="row pb-4">
             <div class="col-lg-8">
-              <h6 class="text-brand">WORK</h6>
-              <h1>my recent project</h1>
-            </div>
-          </div>
-          <div class="row gy-4">
-            <div class="col-lg-6 mb-3">
-              <div
-                class="card-custom rounded-4 bg-base shadow-effect"
-                data-aos="fade-up"
-              >
-                <div class="card-custom-image rounded-4">
-                  <img src="./img/33grid-main-page.png" alt="imgPRJ" />
-                </div>
-                <div class="card-custom-content p-4">
-                  <h4>title</h4>
-                  <p>
-                    text text text text text text text text text text text text
-                    text text
-                  </p>
-                  <a href="#" class="link-custom">read more</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6 mb-3">
-              <div
-                class="card-custom rounded-4 bg-base shadow-effect"
-                data-aos="fade-up"
-              >
-                <div class="card-custom-image rounded-4">
-                  <img src="./img/33grid-main-page.png" alt="imgPRJ" />
-                </div>
-                <div class="card-custom-content p-4">
-                  <h4>title</h4>
-                  <p>
-                    text text text text text text text text text text text text
-                    text text
-                  </p>
-                  <a href="#" class="link-custom">read more</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6 mb-3">
-              <div
-                class="card-custom rounded-4 bg-base shadow-effect"
-                data-aos="fade-up"
-              >
-                <div class="card-custom-image rounded-4">
-                  <img src="./img/33grid-main-page.png" alt="imgPRJ" />
-                </div>
-                <div class="card-custom-content p-4">
-                  <h4>title</h4>
-                  <p>
-                    text text text text text text text text text text text text
-                    text text
-                  </p>
-                  <a href="#" class="link-custom">read more</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6 mb-3">
-              <div
-                class="card-custom rounded-4 bg-base shadow-effect"
-                data-aos="fade-up"
-              >
-                <div class="card-custom-image rounded-4">
-                  <img src="./img/33grid-main-page.png" alt="imgPRJ" />
-                </div>
-                <div class="card-custom-content p-4">
-                  <h4>title</h4>
-                  <p>
-                    text text text text text text text text text text text text
-                    text text text text text text text text text text text text
-                    text text text text
-                  </p>
-                  <a href="#" class="link-custom">read more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- about -->
-      <section id="about" class="full-height px-lg-5">
-        <div class="container">
-          <div class="row pb-4">
-            <div class="col-lg-8">
-              <h6 class="text-brand">About</h6>
+              <h6 class="text-brand">My Education</h6>
               <h1>My Education</h1>
             </div>
           </div>
@@ -281,43 +318,15 @@
                     </p>
                   </div>
                 </div>
-                <div class="col-12">
-                  <div class="bg-base p-4 rounded-4 shadow-effect">
-                    <h4>master in sw engineering</h4>
-                    <p class="text-brand mb-3">
-                      Univesrity of qualcoosa (2020)
-                    </p>
-                    <p class="mb-0">
-                      bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-                      bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-                      bla
-                    </p>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="bg-base p-4 rounded-4 shadow-effect">
-                    <h4>master in sw engineering</h4>
-                    <p class="text-brand mb-3">
-                      Univesrity of qualcoosa (2020)
-                    </p>
-                    <p class="mb-0">
-                      bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-                      bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-                      bla
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
             <div class="col-lg-6">
-              <h4>Education</h4>
+              <h4>Academy</h4>
               <div class="row gy-4">
                 <div class="col-12">
                   <div class="bg-base p-4 rounded-4 shadow-effect">
-                    <h4>master in sw engineering</h4>
-                    <p class="text-brand mb-3">
-                      Univesrity of qualcoosa (2020)
-                    </p>
+                    <h4>Rails</h4>
+                    <p class="text-brand mb-3">site.com (2020)</p>
                     <p class="mb-0">
                       bla bla bla bla bla bla bla bla bla bla bla bla bla bla
                       bla bla bla bla bla bla bla bla bla bla bla bla bla bla
@@ -327,10 +336,8 @@
                 </div>
                 <div class="col-12">
                   <div class="bg-base p-4 rounded-4 shadow-effect">
-                    <h4>master in sw engineering</h4>
-                    <p class="text-brand mb-3">
-                      Univesrity of qualcoosa (2020)
-                    </p>
+                    <h4>BackEnd</h4>
+                    <p class="text-brand mb-3">site.com (2021)</p>
                     <p class="mb-0">
                       bla bla bla bla bla bla bla bla bla bla bla bla bla bla
                       bla bla bla bla bla bla bla bla bla bla bla bla bla bla
@@ -340,10 +347,8 @@
                 </div>
                 <div class="col-12">
                   <div class="bg-base p-4 rounded-4 shadow-effect">
-                    <h4>master in sw engineering</h4>
-                    <p class="text-brand mb-3">
-                      Univesrity of qualcoosa (2020)
-                    </p>
+                    <h4>FrontEnd</h4>
+                    <p class="text-brand mb-3">site.com (2022)</p>
                     <p class="mb-0">
                       bla bla bla bla bla bla bla bla bla bla bla bla bla bla
                       bla bla bla bla bla bla bla bla bla bla bla bla bla bla
@@ -356,7 +361,8 @@
           </div>
         </div>
       </section>
-      <!-- blog -->
+
+      <!-- blog 
       <section id="reviews" class="full-height px-lg-5">
         <div class="container">
           <div class="row pb-4">
@@ -386,30 +392,9 @@
                 </div>
               </div>
             </div>
-            <!-- post 2 -->
-            <div class="col-md-4">
-              <div class="card-custom rounded-4 bg-base">
-                <div class="card-custom-image rounded-4">
-                  <img
-                    class="rounded-4"
-                    src="./img/33grid-main-page.png"
-                    alt="imgPRJ"
-                  />
-                </div>
-                <div class="card-custom-content p-4">
-                  <p class="text-brand mb-2">20/Dic 2022</p>
-                  <h5 class="mb-4">startup</h5>
-                  <p>
-                    innovaiotn innovaiotn innovaiotn innovaiotn innovaiotn
-                    innovaiotn
-                  </p>
-                  <a href="#" class="link-custom">read more</a>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
-      </section>
+      </section>-->
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
