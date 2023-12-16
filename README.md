@@ -6,16 +6,16 @@ at [bSmart Labs.](https://www.bsmart.it/) as **`backend developer`** with:
   <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="a badge"/>
 </div>
 
-## 🗄 side projects
+## 💾 side projects
 
 + ### gabrielemartire.im
-[ . . / gabrielemartire.im](https://gabrielemartire.github.io/gabrielemartire/) soon made with:
+[ ► gabrielemartire.im](https://gabrielemartire.github.io/gabrielemartire/) soon made with:
 <div>
   <img src="https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte badge"/>
 </div>
 
 + ### Control Badge Re▲der
-[ . . / control_badge_reader](https://github.com/gabrielemartire/control_badge_reader) made with:
+[ ► control_badge_reader](https://github.com/gabrielemartire/control_badge_reader) made with:
 <div>
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="python badge"/>
   <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="sql badge"/>
@@ -46,7 +46,7 @@ at [bSmart Labs.](https://www.bsmart.it/) as **`backend developer`** with:
   <img src="https://img.shields.io/badge/OCTAVE-darkblue?style=for-the-badge&logo=octave&logoColor=fcd683" alt="a badge"/>
 -->
 
-## 💾 contacts
+## 🏴‍☠️ contacts
 
 <!--  <a src="google.com"> <img src="https://img.shields.io/badge/-MASTODON-%232B90D9?style=for-the-badge&logo=mastodon&logoColor=white" alt="a badge"/> </a>
   <a> <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="a badge"/> </a> -->
