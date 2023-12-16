@@ -1,5 +1,5 @@
 ## 📌 daily work
-at [bSmart](https://www.bsmart.it/) as `backend developer` with:
+at [bSmart](https://www.bsmart.it/) as **`backend developer`** with:
 <div>
   <img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white" alt="a badge"/>
   <img src="https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white" alt="a badge"/>
