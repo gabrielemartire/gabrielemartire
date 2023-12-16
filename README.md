@@ -1,9 +1,57 @@
-🚧WORK IN PROGRESS🚧
+## 📌 daily work
+at [bSmart](https://www.bsmart.it/) as `backend developer` with:
+<div>
+  <img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white" alt="a badge"/>
+  <img src="https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white" alt="a badge"/>
+  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="a badge"/>
+</div>
 
-https://gabrielemartire.github.io/myportfolio/
+## 🗄 side projects
 
-[![Twitter Badge](https://img.shields.io/badge/PIPPO-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/)](https://twitter.com/)
++ ### gabrielemartire.im
+[ . . / gabrielemartire.im](https://gabrielemartire.github.io/gabrielemartire/) soon made with:
+<div>
+  <img src="https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte badge"/>
+</div>
 
-[![Linkedin Badge](https://img.shields.io/badge/PLUTO-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.co)](https://www.linkedin.com//)
++ ### Control Badge Re▲der
+[ . . / control_badge_reader](https://github.com/gabrielemartire/control_badge_reader) made with:
+<div>
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="python badge"/>
+  <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="sql badge"/>
+  <img src="" alt=""/>
+</div>
 
-[![Gmail Badge](https://img.shields.io/badge/-gabriele.martire@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gabriele.martire@gmail.com)](mailto:gabriele.martire@gmail.com)
++ ### project R&T
+~~[ ► repos/R&T](https://bit.ly/3BlS71b)~~ temporarily private but made with:
+<div>
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="a badge"/>
+  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="a badge"/>
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="a badge"/>
+</div>
+
+<!--
++ ### project TY
+~~[ ► repos/TY](https://bit.ly/3BlS71b)~~ 
+<div>
+  <img src="https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte badge"/>
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="a badge"/>
+</div>
+
+
++ ### Project_IT
+~~[ ► repos/IT](https://bit.ly/3BlS71b)~~ 
+<div>
+  <img src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white" alt="a badge"/>
+  <img src="https://img.shields.io/badge/OCTAVE-darkblue?style=for-the-badge&logo=octave&logoColor=fcd683" alt="a badge"/>
+-->
+
+## 💾 contacts
+
+<!--  <a src="google.com"> <img src="https://img.shields.io/badge/-MASTODON-%232B90D9?style=for-the-badge&logo=mastodon&logoColor=white" alt="a badge"/> </a>
+  <a> <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="a badge"/> </a> -->
+
+[![Gmail](https://img.shields.io/badge/gabriele.martire@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabriele.martire@gmail.com)
+[![Linkedin](https://img.shields.io/badge/-GabrieleMartire-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriele-martire-33429395/)](https://www.linkedin.com/in/gabriele-martire-33429395/)
+
+![Alt Text](https://media.giphy.com/media/FcT1BFYoHwJxu/giphy.gif)
