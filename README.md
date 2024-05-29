@@ -31,6 +31,12 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-now_) as **`backend developer`*
   <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="a badge"/>
 </div>
 
++ ### PDF Keywords finder
+[ ► PDF Keywords finder](https://gabrielemartire.github.io/find_for_me/) ([repo](https://github.com/gabrielemartire/find_for_me/tree/main)) made with:
+<div>
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="a badge"/>
+</div>
+
 <!--
 + ### project TY
 ~~[ ► repos/TY](https://bit.ly/3BlS71b)~~ 
