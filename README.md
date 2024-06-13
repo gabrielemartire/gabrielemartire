@@ -9,8 +9,8 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-now_) as **`backend developer`*
 
 ## 💾 side projects
 
-+ ### gabrielemartire.im
-[ ► gabrielemartire.im](https://gabrielemartire.github.io/gabrielemartire/) soon made with:
++ ### gabrielemartire
+[ ► gabrielemartire](https://gabrielemartire.github.io/gabrielemartire/) soon made with:
 <div>
   <img src="https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte badge"/>
 </div>
