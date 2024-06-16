@@ -1,5 +1,3 @@
-console.log('Hello, Bobble!');
-
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
@@ -42,5 +40,5 @@ function createSpots(numberOfSpots) {
 }
 
 // Numero di macchioline
-const numberOfSpots = 50;
+const numberOfSpots = 40;
 createSpots(numberOfSpots);

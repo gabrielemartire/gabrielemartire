@@ -42,7 +42,8 @@
     <div class="card-container container" style="width: auto !important;" >
 
         <div class="card-body" style="width: auto;">
-            <h4 class="card-title text-focus" style="font-size: large;">Gabriele Martire</h5>
+            <h4 class="text-focus">Gabriele Martire</h4>
+            <img class="picProfile" src="img/imgMe.jpg" class="img-fluid rounded-start"/>            
             <div>
                 <a class="social github" target="_blank" style="padding-left: 12px;" href="https://github.com/gabrielemartire" >
                     <i class="fa-brands fa-github"></i>
@@ -59,7 +60,9 @@
                 <a class="social mastodon" target="_blank" style="padding-left: 12px;" href="#" >
                     <i class="fa-brands fa-mastodon"></i>
                 </a>
-                <p>Rome, Italy</p> 
+                <div class="text-muted" style="padding: 1rem;">
+                    Rome, Italy
+                </div>
             </div>
         </div>
 
@@ -79,11 +82,13 @@
                 <h5 class="card-title text-focus">Ruby on Rails Backend developer @ bSmart Labs.</h5>
                 <p style="color: whitesmoke;">Lorem ipsum dolor sit amet</p>
                 <ul>
-                    <li>Ruby / Ruby on Rails</li>
-                    <li>React</li>
+                    <li>Ruby on Rails</li>
                     <li>PostgreSQL</li>
+                    <li>git</li>
+                    <li>Docker</li>
+                    <li>Grafana</li>
                     <li>HTML / CSS / JS</li>
-                  </ul>
+                </ul>
                 <a href="https://www.bsmartlabs.com/" class="btn btn-primary" target="_blank">visit website</a>
                 <div class="text-muted" style="padding: 1rem;">
                 2022-now
@@ -116,8 +121,22 @@
                     <i class="fa-brands fa-x"></i>
                 </a>
                 <ul>
-                    <li> <a href="#" class="btn btn-primary">R&T.it</a> </li>
-                    <li> <a href="#" class="btn btn-primary">AdB.it</a> </li>
+                    <li>
+                        <a href="#" class="btn btn-primary">R&T.it</a>
+                        ( <i class="fa-solid fa-bookmark"></i> 
+                        <i class="fa-solid fa-plane-departure"></i> )
+                        with <span class="text-focus">React</span> and <span class="text-focus">Supabase</span>
+                    </li>
+                    <li>
+                        <a href="#" class="btn btn-primary">AdB.it</a> 
+                        ( <i class="fa-solid fa-masks-theater"></i> 
+                        <i class="fa-solid fa-ticket"></i> )
+                    </li>
+                    <li>
+                        <a href="#" class="btn btn-primary">Tmf.it</a> 
+                        ( <i class="fa-solid fa-user-astronaut"></i> 
+                        <i class="fa-solid fa-broom-ball"></i> )
+                    </li>
                 </ul>
                 <div class="card-footer text-muted">
                     born in 2023
@@ -126,10 +145,24 @@
         </div>
 
         <img
-        src="./img/DP.png"
-        alt="ops.. well.. don't panic"
-        width="70px"
-      />
+            src="./img/DP.png"
+            alt="ops.. well.. don't panic"
+            width="70px"
+        />
+
+        <div class="card" style="width: auto;">
+            <div class="card-body">
+              <a href="./doc/CV_Martire.pdf" download="Curriculum Martire">
+                <i class="fa-solid fa-download"></i>
+                Download CV ITA
+              </a>
+              <a href="./doc/CV_Martire.pdf" download="Curriculum Martire">
+                  <br />
+                <i class="fa-solid fa-download"></i>
+                Download CV ENG
+              </a>
+            </div>
+        </div>
 
         <div class="card" style="width: auto;">
             <div class="card-body">
@@ -140,13 +173,14 @@
                 <ul>
                     <li>Udemy.com
                         <ul>
-                            <li>100% - Learn to Code with Ruby</li>
-                            <a
-                                href="../doc/udemy_LearnToCodeWithRuby.pdf"
-                                download="Martire CertificateBJS2 on WesBos"
-                            >
-                                <i class="fa-solid fa-download"></i>Certificate
-                            </a>
+                            <li>100% - Learn to Code with Ruby
+                                <a
+                                    href="../doc/udemy_LearnToCodeWithRuby.pdf"
+                                    download="Martire CertificateBJS2 on WesBos"
+                                >
+                                    <i class="fa-solid fa-download"></i>Certificate
+                                </a>
+                            </li>
                             <li>
                                 100% - The Complete Ruby on Rails Developer Course
                                 <!--</li><a href=""><i class="fa-solid fa-download"></i> Certificate</a>-->
@@ -159,13 +193,13 @@
                     </li>
                     <li>wesbos.com
                         <ul>
-                            <li>100% - Master Package (BJS2) - Beginner JavaScript</li>
-                            <a
-                                href="../doc/wesbos_BeginnerJS.pdf.pdf"
-                                download="Martire CertificateBJS2 on WesBos"
-                            >
-                                <i class="fa-solid fa-download"></i>Certificate
-                            </a>
+                            <li>
+                                100% - Beginner JavaScript (BJS2)
+                                <a href="../doc/wesbos_BeginnerJS.pdf.pdf" download="Martire CertificateBJS2 on WesBos">
+                                    <i class="fa-solid fa-download"></i>
+                                    Certificate
+                                </a>
+                            </li>
                         </ul>
                     </li>
                     <li>
@@ -211,14 +245,14 @@
                     <li>
                         no-dev-skills
                         <ul>
-                            <li> 
+                            <!-- <li> 
                                 Farmer 🚜
-                            </li>
+                            </li> -->
                             <li>
                                 Elettronic 🛠
                             </li>
                             <li> 
-                                DIY Woodworker 🪚
+                                Woodworker 🪚
                             </li>
                             <!-- <li> 
                                 3D Printing 🖨
@@ -234,36 +268,25 @@
                         </ul>
                     </li>
                     <li>
-                        passions & hobbies
+                        hobbies
                         <ul>
                             <li> 
-                                D&D Master 🧙🏻‍♂📜
+                                D&D Master📜
                             </li>
                             <li> 
-                                MoviesAddicted🎬
+                                Movies🎬
                             </li>
                             <li> 
-                                Karateka 🥋
+                                Karateka🥋
                             </li>
-                            <li> 
+                            <li>
+                                Basketball🏀
+                            </li>
+                            <!-- <li> 
                                 Traveler ASAP🌍
-                            </li>
+                            </li> -->
                     </li>
                 </ul>
-            </div>
-        </div>
-
-        <div class="card" style="width: auto;">
-            <div class="card-body">
-              <a href="./doc/CV_Martire.pdf" download="Curriculum Martire">
-                <i class="fa-solid fa-download"></i>
-                Download CV ITA
-              </a>
-              <a href="./doc/CV_Martire.pdf" download="Curriculum Martire">
-                  <br />
-                <i class="fa-solid fa-download"></i>
-                Download CV ENG
-              </a>
             </div>
         </div>
 

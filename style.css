@@ -11,6 +11,25 @@ body {
     justify-content: center;
 }
 
+.picProfile {
+  width: 125px;
+  height: 125px;
+  border-radius: 3px 7px 37% 11px;
+  border: 1px solid whitesmoke;
+  vertical-align: middle;
+  margin: 3%;
+}
+
+h5 {
+    font-size: 1em;
+    margin: 0;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin: 1% 5%;
+}
+
 a{  /* unvisited link */
     text-decoration: underline;
     color: whitesmoke
