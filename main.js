@@ -1,7 +1,6 @@
 console.log('Hello, Bobble!');
 
 function getRandomInt(min, max) {
-    console.log('min:', min, 'max:', max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
