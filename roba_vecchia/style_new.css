@@ -1,0 +1,242 @@
+/*
+padding: ↑  →  ↓  ←     
+padding: ↑  ⇄  ↓
+padding: ⇅  ⇄
+padding: ⥁
+*/
+
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
+/* NEW PROEJECT 1 maggio 2023 */
+
+:root {
+  --color-body: #fee8a0;
+  --color-heading: #224b7d;
+  --color-base: rgb(5, 142, 221);
+  --color-text-base: #000000;
+  --color-brand: rgb(5, 142, 221);
+  --sidebar-width: 240px;
+}
+
+body {
+  font-family: "Abel", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
+  background-color: var(--color-body);
+  color: var(--color-text-base);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-text-base);
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text-base);
+  transition: all 0.4s ease;
+}
+
+img {
+  width: 100%;
+}
+
+.text-brand {
+  color: var(--color-brand);
+}
+
+.bg-base {
+  background-color: var(--color-heading);
+}
+
+.full-height {
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 90px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.496);
+}
+
+.shadow-effect {
+  transition: all 0.5s;
+}
+
+.shadow-effect:hover {
+  box-shadow: -2px 3px 0 0 var(--color-brand);
+}
+
+.navbar {
+  background: none;
+  z-index: 1;
+  width: 90%;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  /* height: 80px; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  color: var(--color-brand);
+}
+
+.navbar-list ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-list ul li {
+  margin-left: 50px;
+}
+
+.navbar-list ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #2f5340;
+  font-weight: bold;
+  display: block;
+}
+
+.navbar-list ul li button {
+  background: linear-gradient(
+    112.82deg,
+    rgb(5, 142, 221) 19.93%,
+    rgb(0, 44, 69) 102.22%
+  );
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-radius: 9px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.navbar-list ul li button:hover {
+  transform: translateY(-5px);
+}
+
+.scroll {
+  background: rgb(5, 142, 221);
+  top: -100px;
+  border-radius: 20px;
+  width: 90%;
+  animation: fadedown 0.5s ease 1s forwards;
+}
+
+@keyframes fadedown {
+  0% {
+    top: -70px;
+  }
+  100% {
+    top: 20px;
+  }
+}
+
+.navbar-brand {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  background: linear-gradient(
+    112.82deg,
+    rgb(255, 255, 255) 19.93%,
+    rgb(0, 44, 69) 102.22%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.navbar .nav-link {
+  font-weight: 700;
+  color: var(--color-text-base);
+  transition: all 0.8s ease;
+}
+
+/* coontent wrapper */
+/* #content-wrapper {
+  padding-left: 0px;
+} */
+
+/* btn */
+.btn {
+  padding: 12px 32px;
+  font-weight: 700;
+}
+
+.btn-brand {
+  background-color: var(--color-brand);
+  border-bottom: var(--color-brand);
+}
+
+.btn-brand:hover,
+.btn-brand:focus {
+  background-color: var(--color-text-base);
+  color: var(--color-body);
+}
+
+.link-custom {
+  font-weight: 700;
+  position: relative;
+}
+
+.link-custom::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: var(--color-brand);
+  position: absolute;
+  left: 0;
+  top: 110%;
+  transition: all 0.4s;
+}
+
+.link-custom:hover::after {
+  width: 100%;
+}
+
+/* CARD animation */
+.card-custom .card-custom-image {
+  overflow: hidden;
+}
+.card-custom .card-custom-image img {
+  transition: all 0.9s ease;
+}
+.card-custom:hover .card-custom-image img {
+  transform: scale(1.2);
+}
+
+/* CONTACT */
+#contact .form-control {
+  background-color: var(--color-base);
+  border-color: var(--color-base);
+  color: var(--color-body);
+}
+
+#contact .form-control:focus {
+  border-color: var(--color-brand);
+  box-shadow: none;
+}
+
+#contact .form-control::placeholder {
+  color: var(--color-body);
+}
+
+#contact input.form-control {
+  height: 44px;
+}

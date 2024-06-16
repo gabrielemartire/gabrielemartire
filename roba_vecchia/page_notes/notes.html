@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+<!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- import lib from github.com/rough-stuff/rough-notation.. che in teoria non serve 
+    <script type="module" src="https://unpkg.com/rough-notation?module"></script>-->
+
+        <script type="module" src="./annotate.js"></script>
+
+</head>
+<body><main>
+    <div class='wrapper'> <!-- contiene tutto -->
+        <div class="leftMenu"> <!-- menu a sinistra -->
+            <div class='rightColumn'>
+                <button class="MenuButton">
+                    <img src="./img/icon/logo/logo.png" alt="log" width="35" height="35">
+                </button>
+                <button class="MenuButton">
+                    <img src="./img/icon/home/1x/outline_home_black_24dp.png" alt="hom" width="35" height="35">
+                    Home
+                </button>
+                <button class="MenuButton">
+                    <img src="./img/icon/tag/1x/outline_tag_black_24dp.png" alt="tag" width="35" height="35">
+                    Esplora
+                </button>
+                <button class="MenuButton">
+                    <img src="./img/icon/bell/1x/outline_notifications_black_24dp.png" alt="notify" width="35" height="35">
+                    Notifiche
+                </button>
+                <button class="MenuButton">
+                    <img src="./img/icon/mail/1x/outline_email_black_24dp.png" alt="eml" width="35" height="35">
+                    Messaggi
+                </button>
+                <button class="MenuButton">
+                    <img src="./img/icon/bookmark/1x/outline_bookmark_border_black_24dp.png" alt="bkr" width="35" height="35">
+                    <em>Segnalibri</em>
+                    
+                </button>
+                <button class="MenuButton">
+                    <img src="./img/icon/article/1x/outline_article_black_24dp.png" alt="cnt" width="35" height="35">
+                    Liste
+                </button>
+                <button class="MenuButton">
+                    <img src="./img/icon/person/1x/outline_person_black_24dp.png" alt="prf" width="35" height="35">
+                    
+                    <strong>Profilo</strong>
+                    
+                </button>
+                <button class="MenuButton">
+                    <img src="./img/icon/pending/1x/outline_pending_black_24dp.png" alt="pdg" width="35" height="35">
+                    Altro
+                </button>
+                <br><br><br>
+                <button class="MenuButton TweetButton">
+                    Twitta
+                </button>
+            </div>
+        </div>
+        <div class='centerPosts'> <!-- zona centrale -->
+            <div class='homeHead'>
+                Home
+                <button class='stars' onclick="alert('I Tweet popolari appaiono per primi nella home')" >
+                    <img src="./img/icon/stars/1x/outline_auto_awesome_black_24dp.png" alt="pdg" width="28" height="28">
+                </button>
+            </div>
+            <div>POSTA E TWITTA DA FARE</div>
+            <br>
+            <br>
+            <div class='board'> <!-- zona post -->
+                <div class='post post1'>
+                    <img src="http://placecorgi.com/250" class="corgiProfile" width="60" height="60" /> 
+                    <b class='postCmp'>Corgi1 Gamer93</b>
+                    <span class='postCmp'>@corgi1_gamer_xx</span>
+                    <span class='postCmp'>۰ 3h</span>
+                    <br>
+                    <span class='postCmp'>
+                        <span class='hashtag'>#Lorem_ipsum</span>
+                        <p id="block">
+                            dolor sit amet consectetur adipisicing elit. Delectus porro provident quo architecto deleniti incidunt ipsam sit maiores explicabo repellendus!
+                        </p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class='rightBar'></div>        <!-- banda destra -->
+    </div>
+</main>
+
+
+
+
+
+
+
+</body></html>

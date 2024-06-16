@@ -1,0 +1,136 @@
+/* tutti gli elementi del contenitore polyBack */
+.polyBack div{
+    position: fixed;
+}
+
+.polyBack a{
+    cursor: pointer; 
+    position: fixed;
+}
+/*
+.polyMoun1{ background-color: #3E505B; clip-path: polygon(67% 0, 0 100%, 100% 100%); z-index:-3; left: -10px; bottom: -10px; width: 600px; height: 700px; }
+.polyMoun2{ background-color: #3E505B; clip-path: polygon(42% 0, 16% 100%, 100% 100%); z-index:-3; left: -10px; bottom: -10px; width: 900px; height: 800px; }
+.polyMoun3{ background-color: #4b5f6b; clip-path: polygon(61% 40%, 16% 100%, 78% 100%); z-index:-2; left: -10px; bottom: -10px; width: 900px; height: 800px; }
+.polyMoun4{ background-color: #3E505B; clip-path: polygon(89% 16%, 24% 100%, 100% 100%); z-index:-3;  right: -30px; bottom: -10px; width: 900px; height: 800px; }
+.polyMoun5{ background-color: #4b5f6b; clip-path: polygon(50% 58%, 24% 100%, 100% 100%); z-index:-2;  right: -10px; bottom: -10px; width: 900px; height: 800px; }
+*/
+
+.polyMoun2{ /* duna sinistra */
+    background-color: #728d9e;
+    clip-path: polygon(90% 70%, 0 100%, 100% 100%);
+    z-index:-2;
+    left: -730px;
+    bottom: 0px;
+    width: 900px;
+    height: 800px;
+    position: relative;
+    animation-name: moveMouLeft;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+/* the keyframe animation */
+@keyframes moveMouLeft {
+    0%    {background-color: #728d9e;   }
+    50%  {background-color: #c8be54;    }
+    100%   {background-color: #728d9e;  }
+}
+
+@keyframes moveMouRight {
+    0%    {background-color: #3E505B; }
+    50%  {background-color: #8a9037;}
+    100%   {background-color: #3E505B;}
+}
+
+.polyMoun3{ /* duna sinistra */
+    background-color: #3E505B;
+    clip-path: polygon(10% 70%, 20% 100%, 100% 100%);
+    z-index:-2;
+    left: -10px;
+    bottom: 0px;
+    width: 900px;
+    height: 800px;
+    position: relative;
+    animation-name: moveMouRight;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+ 
+.polyMoun4{ /* duna destra */
+    background-color: #728d9e;
+    clip-path: polygon(70% 80%, 0 100%, 100% 100%);
+    z-index:-3; 
+    left: 730px;
+    bottom: 0px;
+    width: 900px;
+    height: 800px;
+    position: relative;
+    animation-name: moveMouLeft;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+.polyMoun5{ /* duna destra */
+    background-color: #3E505B;
+    clip-path: polygon(10% 80%, 30% 100%, 100% 100%);
+    z-index:-3; 
+    left: 1270px;
+    bottom: 0px;
+    width: 900px;
+    height: 800px;
+    position: relative;
+    animation-name: moveMouRight;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+.polySun{
+    background-color: #d4d4dc;
+    clip-path: circle(50% at 50% 50%);
+    z-index:-4; 
+    left: 100px; 
+    top: 100px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    animation-name: moveSun;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+/* the keyframe animation */
+@keyframes moveSun {
+    0%    {background-color: #d4d4dc;       left:0px; top:-100px;}
+    50%  {background-color: #d46e45;       left:200px; top:500px;}
+    100%   {background-color: #d4d4dc;       left:0px; top:-100px;}
+}
+
+.polyOther1{
+    background-color: #FF8811;
+    clip-path: polygon(44% 58%, 53% 59%, 54% 57%, 58% 59%, 63% 56%, 78% 58%, 67% 60%, 60% 65%, 60% 71%, 54% 64%, 46% 63%, 32% 63%);
+    z-index:-1; 
+    left: 5%; 
+    top: 300px;
+    width: 200px;
+    height: 200px;
+}
+
+.polyOther2{
+    background-color: #FF8811;
+    clip-path: polygon(44% 58%, 53% 59%, 54% 57%, 58% 59%, 63% 56%, 78% 58%, 67% 60%, 60% 65%, 60% 71%, 54% 64%, 46% 63%, 32% 63%);
+    z-index:-1; 
+    left: 2%; 
+    top: 380px;
+    width: 170px;
+    height: 170px;
+}
+
+.polyOther3{ /* cammello */
+    background-color: #FF8811;
+    clip-path: polygon(36% 67%, 33% 53%, 35% 45%, 44% 34%, 50% 32%, 60% 41%, 61% 32%, 73% 32%, 69% 36%, 65% 35%, 64% 47%, 59% 50%, 62% 65%, 56% 56%, 53% 65%, 51% 65%, 53% 50%, 47% 50%, 43% 57%, 45% 66%, 43% 66%, 40% 57%, 38% 66%);
+    z-index:-1; 
+    left: 1200px; 
+    bottom: 50px;
+    width: 100px;
+    height: 100px;
+}
