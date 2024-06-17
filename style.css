@@ -47,6 +47,12 @@ a:hover {
     color: rgb(209, 175, 115)
 }
 
+.code-focus{
+    border: 1px solid rgba(245, 245, 245, 0.234);
+    padding: 0px 3px;
+    border-radius: 3px;
+}
+
 .spot {
     position: absolute;
     border-radius: 50%;
@@ -85,6 +91,11 @@ a:hover {
     padding: 20px;
     background: rgba(255, 255, 255, 0); /* Sfondo semi-trasparente per le card */
     border-radius: 10px;
+}
+
+li{
+    /* list-style-type: none; */
+    padding: 2px;
 }
 
 .card {

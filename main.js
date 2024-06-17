@@ -7,7 +7,6 @@ function getRandomFloat(min, max) {
 }
 
 function getRandomColor() {
-    // Array di colori che ricordano la birra
     const colors = [
         'rgba(146, 9, 142, 0.6)', // Viola scuro
         'rgba(2, 86, 82, 0.6)', // Verde scuro
@@ -40,5 +39,5 @@ function createSpots(numberOfSpots) {
 }
 
 // Numero di macchioline
-const numberOfSpots = 40;
+const numberOfSpots = 32;
 createSpots(numberOfSpots);
