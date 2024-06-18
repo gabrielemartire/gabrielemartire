@@ -21,7 +21,7 @@ function createSpots(numberOfSpots) {
         const spot = document.createElement('div');
         spot.classList.add('spot');
 
-        const size = getRandomInt(5, 20); // Dimensione della macchia
+        const size = getRandomInt(5, 16); // Dimensione della macchia
         const posX = getRandomInt(0, window.innerWidth);
         const delay = getRandomFloat(0, 10); // Ritardo casuale per l'inizio dell'animazione
         const duration = getRandomFloat(10, 20); // Durata casuale dell'animazione
