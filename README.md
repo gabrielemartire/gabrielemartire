@@ -33,7 +33,7 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-now_) as **`backend developer`*
 </div>
 
 + ### PDF Keywords finder
-[ ► PDF Keywords finder](https://gabrielemartire.github.io/find_for_me/) ([repo](https://github.com/gabrielemartire/find_for_me/tree/main)) made with:
+[ ► PDF Keywords finder](https://gabrielemartire.github.io/PDF_KWs_finder/) ([repo](https://github.com/gabrielemartire/PDF_KWs_finder/tree/main)) made with:
 <div>
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="a badge"/>
 </div>
