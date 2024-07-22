@@ -1,10 +1,10 @@
 ## 📌 daily work
 at [bSmart Labs.](https://www.bsmart.it/) (_2021-now_) as **`backend developer`** with:
 <div>
-  <img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white" alt="ruby badge"/>
-  <img src="https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white" alt="rails badge"/>
-  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="postgres badge"/>
-  & <img src="https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white" alt="grafana badge"/>
+  <a href="#"><img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white" alt="ruby badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white" alt="rails badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="postgres badge"/></a>
+  & <a href="#"><img src="https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white" alt="grafana badge"/></a>
 </div>
 
 ## 💾 side projects
@@ -13,45 +13,45 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-now_) as **`backend developer`*
 [ ► gabrielemartire](https://gabrielemartire.github.io/) soon made with:
 
 <div>
-  <img src="https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte badge"/>
+  <a href="#"><img src="https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte badge"/></a>
 </div>
 
 + ### Control Badge Re▲der
 [ ► control_badge_reader](https://github.com/gabrielemartire/control_badge_reader) made with:
 <div>
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="python badge"/>
-  <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="sql badge"/>
+  <a href="#"><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="python badge"/></a>
+  & <a href="#"><img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="sql badge"/></a>
   <img src="" alt=""/>
 </div>
 
 + ### project R&T
 ~~[ ► repos/R&T]()~~ temporarily private but made with:
 <div>
-  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="a badge"/>
-  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="a badge"/>
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="a badge"/>
+  <a href="#"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="a badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="a badge"/></a>
+  & <a href="#"><img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="a badge"/></a>
 </div>
 
 + ### PDF Keywords finder
 [ ► PDF Keywords finder](https://gabrielemartire.github.io/PDF_KWs_finder/) ([repo](https://github.com/gabrielemartire/PDF_KWs_finder/tree/main)) made with:
 <div>
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="a badge"/>
+  <a href="#"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="a badge"/></a>
 </div>
 
 <!--
 + ### project TY
 ~~[ ► repos/TY](https://bit.ly/3BlS71b)~~ 
 <div>
-  <img src="https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte badge"/>
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="a badge"/>
+  <a href="#"><img src="https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="a badge"/></a>
 </div>
 
 
 + ### Project_IT
 ~~[ ► repos/IT](https://bit.ly/3BlS71b)~~ 
 <div>
-  <img src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white" alt="a badge"/>
-  <img src="https://img.shields.io/badge/OCTAVE-darkblue?style=for-the-badge&logo=octave&logoColor=fcd683" alt="a badge"/>
+  <a href="#"><img src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white" alt="a badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/OCTAVE-darkblue?style=for-the-badge&logo=octave&logoColor=fcd683" alt="a badge"/></a>
 -->
 
 ## 🏴‍☠️ contacts
