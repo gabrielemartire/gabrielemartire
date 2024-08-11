@@ -32,8 +32,8 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-now_) as **`backend developer`*
   & <a href="#"><img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="a badge"/></a>
 </div>
 
-+ ### PDF Keywords finder
-[ ► PDF Keywords finder](https://gabrielemartire.github.io/PDF_KWs_finder/) ([repo](https://github.com/gabrielemartire/PDF_KWs_finder/tree/main)) made with:
++ ### Document Utility for Keyword Extraction - D.U.K.E.
+[ ► D.U.K.E.](https://gabrielemartire.github.io/DUKE/) ([repo](https://github.com/gabrielemartire/DUKE/tree/main)) made with:
 <div>
   <a href="#"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="a badge"/></a>
 </div>
