@@ -52,7 +52,14 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-now_) as **`backend developer`*
 <div>
   <a href="#"><img src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white" alt="a badge"/></a>
   <a href="#"><img src="https://img.shields.io/badge/OCTAVE-darkblue?style=for-the-badge&logo=octave&logoColor=fcd683" alt="a badge"/></a>
+</div>
 -->
+
++ ### game of life
+[repo](https://github.com/gabrielemartire/game_of_life) made with:
+<div>
+  <a href="#"><img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white" alt="a badge"/></a>
+</div>
 
 ## 🏴‍☠️ contacts
 
