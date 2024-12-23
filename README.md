@@ -10,14 +10,10 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-now_) as **`backend developer`*
 ## 💾 side projects
 
 + ### my website
-[gabrielemartire](https://gabrielemartire.github.io/) soon made with:
-
-<div>
-  <a href="#"><img src="https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte badge"/></a>
-</div>
+[gabrielemartire](https://gabrielemartire.github.io/) 
 
 + ### Control Badge Re▲der
-[control_badge_reader](https://github.com/gabrielemartire/control_badge_reader) made with:
+[repo](https://github.com/gabrielemartire/control_badge_reader) made with:
 <div>
   <a href="#"><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="python badge"/></a>
   & <a href="#"><img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="sql badge"/></a>
@@ -25,7 +21,7 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-now_) as **`backend developer`*
 </div>
 
 + ### project R&T
-~~[R&T]()~~ temporarily private but made with:
+~~R&T.it~~ private but made with:
 <div>
   <a href="#"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="a badge"/></a>
   <a href="#"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="a badge"/></a>
@@ -33,27 +29,10 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-now_) as **`backend developer`*
 </div>
 
 + ### Document Utility for Keyword Extraction - D.U.K.E.
-[D.U.K.E.](https://gabrielemartire.github.io/DUKE/) ([repo](https://github.com/gabrielemartire/DUKE/tree/main)) made with:
+[repo](https://gabrielemartire.github.io/DUKE/) ([repo](https://github.com/gabrielemartire/DUKE/tree/main)) made with:
 <div>
   <a href="#"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="a badge"/></a>
 </div>
-
-<!--
-+ ### project TY
-~~[repos/TY](https://bit.ly/3BlS71b)~~ 
-<div>
-  <a href="#"><img src="https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte badge"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="a badge"/></a>
-</div>
-
-
-+ ### Project_IT
-~~[ - repos/IT](https://bit.ly/3BlS71b)~~ 
-<div>
-  <a href="#"><img src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white" alt="a badge"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/OCTAVE-darkblue?style=for-the-badge&logo=octave&logoColor=fcd683" alt="a badge"/></a>
-</div>
--->
 
 + ### game of life
 [repo](https://github.com/gabrielemartire/game_of_life) made with:
