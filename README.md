@@ -29,7 +29,7 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-now_) as **`backend developer`*
 </div>
 
 + ### Document Utility for Keyword Extraction - D.U.K.E.
-[repo](https://gabrielemartire.github.io/DUKE/) ([repo](https://github.com/gabrielemartire/DUKE/tree/main)) made with:
+[D.U.K.E.](https://gabrielemartire.github.io/DUKE/) ([repo](https://github.com/gabrielemartire/DUKE/tree/main)) made with:
 <div>
   <a href="#"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="a badge"/></a>
 </div>
