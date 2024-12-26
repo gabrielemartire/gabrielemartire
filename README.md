@@ -9,7 +9,7 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-now_) as **`backend developer`*
 
 ## 💾 side projects
 
-+ ### my website
++ ### This website
 [gabrielemartire](https://gabrielemartire.github.io/) 
 
 + ### Control Badge Re▲der
@@ -20,7 +20,7 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-now_) as **`backend developer`*
   <img src="" alt=""/>
 </div>
 
-+ ### project R&T
++ ### R&T project
 ~~R&T.it~~ private but made with:
 <div>
   <a href="#"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="a badge"/></a>
@@ -34,7 +34,7 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-now_) as **`backend developer`*
   <a href="#"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="a badge"/></a>
 </div>
 
-+ ### game of life
++ ### Game of Life
 [repo](https://github.com/gabrielemartire/game_of_life) made with:
 <div>
   <a href="#"><img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white" alt="a badge"/></a>
