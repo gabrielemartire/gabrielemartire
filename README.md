@@ -30,7 +30,6 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-2025_) as **`Backend developer`
 </div>
 
 + ### M2i project
-~~M2i.it~~ temporay private but made with:
 <div>
   <a href="#"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB" alt="a badge"/></a>
   <a href="#"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white" alt="a badge"/></a>
@@ -38,7 +37,6 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-2025_) as **`Backend developer`
 </div>
 
 + ### R&T project
-~~R&T.it~~ private but made with:
 <div>
   <a href="#"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB" alt="a badge"/></a>
   <a href="#"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white" alt="a badge"/></a>
