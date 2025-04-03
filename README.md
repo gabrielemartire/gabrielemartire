@@ -18,17 +18,6 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-2025_) as **`Backend developer`
 
 ## Side projects
 
-+ ### My website
-[gabrielemartire](https://gabrielemartire.github.io/) 
-
-+ ### Control Badge Re▲der
-[repo](https://github.com/gabrielemartire/control_badge_reader) made with:
-<div>
-  <a href="#"><img src="https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54" alt="python badge"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/mysql-%2300f.svg?style=flat&logo=mysql&logoColor=white" alt="sql badge"/></a>
-  <img src="" alt=""/>
-</div>
-
 + ### M2i project
 <div>
   <a href="#"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB" alt="a badge"/></a>
@@ -48,6 +37,14 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-2025_) as **`Backend developer`
 <div>
   <a href="#"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E" alt="a badge"/></a>
 </div>
+
++ ### Control Badge Re▲der
+[repo](https://github.com/gabrielemartire/control_badge_reader) made with:
+<div>
+  <a href="#"><img src="https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54" alt="python badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/mysql-%2300f.svg?style=flat&logo=mysql&logoColor=white" alt="sql badge"/></a>
+  <img src="" alt=""/>
+</div
 
 + ### Game of Life
 [repo](https://github.com/gabrielemartire/game_of_life) made with:
