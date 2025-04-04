@@ -2,8 +2,12 @@
 at [TecnoElectric](https://www.te-srl.it/) (_2025-now_) as **`DevOps & PHP developer`** with:
 <div>
   <a href="#"><img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white" alt="docker badge"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/PHP-3776AB?style=flat&logo=php&logoColor=white" alt="mysql badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Kubernetes-326ce5?style=flat&logo=kubernetes&logoColor=white" alt="php badge"/></a>
   <a href="#"><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="php badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/git-f14e32?style=flat&logo=git&logoColor=white" alt="php badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Github%20Actions-0388a6?style=flat&logo=githubactions&logoColor=white" alt="php badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/grafana-%23F46800.svg?style=flat&logo=grafana&logoColor=white" alt="grafana badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/PHP-3776AB?style=flat&logo=php&logoColor=white" alt="mysql badge"/></a>
 </div>
 
 ## Other working experience
@@ -11,9 +15,10 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-2025_) as **`Backend developer`
 <div>
   <a href="#"><img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=flat&logo=ruby&logoColor=white" alt="ruby badge"/></a>
   <a href="#"><img src="https://img.shields.io/badge/rails-%23CC0000.svg?style=flat&logo=ruby-on-rails&logoColor=white" alt="rails badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white" alt="docker badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/git-f14e32?style=flat&logo=git&logoColor=white" alt="php badge"/></a>
   <a href="#"><img src="https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white" alt="postgres badge"/></a>
   <a href="#"><img src="https://img.shields.io/badge/grafana-%23F46800.svg?style=flat&logo=grafana&logoColor=white" alt="grafana badge"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white" alt="docker badge"/></a>
 </div>
 
 ## Side projects
