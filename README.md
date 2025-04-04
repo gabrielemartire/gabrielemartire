@@ -22,7 +22,7 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-2025_) as **`Backend developer`
 <div>
   <a href="#"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB" alt="a badge"/></a>
   <a href="#"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white" alt="a badge"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Payload-V3.0-1A132F" alt="badge"/></a>
+  <a href="#" disabled><img src="https://shields.io/badge/-Payload%20CMS-black?style=flat&logo=payloadcms&logoColor=white" alt="PayloadCMS"/></a>
 </div>
 
 + ### R&T project
