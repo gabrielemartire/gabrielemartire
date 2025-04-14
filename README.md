@@ -4,6 +4,7 @@ at [Tecno-Electric](https://www.te-srl.it/) (_2025-now_) as **`DevOps & PHP deve
   <a href="#"><img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white" alt="docker badge"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Kubernetes-326ce5?style=flat&logo=kubernetes&logoColor=white" alt="php badge"/></a>
   <a href="#"><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="php badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white" alt="postgres badge"/></a>
   <a href="#"><img src="https://img.shields.io/badge/git-f14e32?style=flat&logo=git&logoColor=white" alt="php badge"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Github%20Actions-0388a6?style=flat&logo=githubactions&logoColor=white" alt="php badge"/></a>
   <a href="#"><img src="https://img.shields.io/badge/grafana-%23F46800.svg?style=flat&logo=grafana&logoColor=white" alt="grafana badge"/></a>
