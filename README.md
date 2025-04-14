@@ -1,5 +1,5 @@
 ## 📌 Daily work
-at [TecnoElectric](https://www.te-srl.it/) (_2025-now_) as **`DevOps & PHP developer`** with:
+at [Tecno-Electric](https://www.te-srl.it/) (_2025-now_) as **`DevOps & PHP developer`** with:
 <div>
   <a href="#"><img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white" alt="docker badge"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Kubernetes-326ce5?style=flat&logo=kubernetes&logoColor=white" alt="php badge"/></a>
