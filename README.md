@@ -11,7 +11,7 @@ at [Tecno-Electric](https://www.te-srl.it/) (_2025-now_) as **`DevOps & Backend 
   <a href="#"><img src="https://img.shields.io/badge/PHP-3776AB?style=flat&logo=php&logoColor=white" alt="mysql badge"/></a>
 </div>
 
-## Other working experience
+## Other web working experience
 at [bSmart Labs.](https://www.bsmart.it/) (_2021-2025_) as **`Backend developer`** with:
 <div>
   <a href="#"><img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=flat&logo=ruby&logoColor=white" alt="ruby badge"/></a>
@@ -20,6 +20,16 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-2025_) as **`Backend developer`
   <a href="#"><img src="https://img.shields.io/badge/git-f14e32?style=flat&logo=git&logoColor=white" alt="php badge"/></a>
   <a href="#"><img src="https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white" alt="postgres badge"/></a>
   <a href="#"><img src="https://img.shields.io/badge/grafana-%23F46800.svg?style=flat&logo=grafana&logoColor=white" alt="grafana badge"/></a>
+</div>
+
+## Engineering working experience
+at [STB SYS Automation](https://www.stbvalitech.it/) (_2013-2021_) as **`Senior Software Automation Engineering`** with:
+<div>
+  <a href="#"><img src="https://img.shields.io/badge/InductiveAutomation-445C6D?style=flat&logo=inductiveautomation&logoColor=white" alt="mysql badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Siemens-009999?style=flat&logo=siemens&logoColor=white" alt="mysql badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/webDriverI/O-EA5906?style=flat&logo=webdriverio&logoColor=white" alt="mysql badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/RockwellAutomation-CD163F?style=flat&logo=rockwellautomation&logoColor=white" alt="mysql badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/vmWare-607078?style=flat&logo=vmware&logoColor=white" alt="mysql badge"/></a>
 </div>
 
 ## Side projects
