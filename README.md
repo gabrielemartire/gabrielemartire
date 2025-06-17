@@ -11,7 +11,7 @@ at [Tecno-Electric](https://www.te-srl.it/) (_2025-now_) as **`DevOps & Backend 
   <a href="#"><img src="https://img.shields.io/badge/PHP-3776AB?style=flat&logo=php&logoColor=white" alt="mysql badge"/></a>
 </div>
 
-## Other web working experience
+## Web Engineering experience
 at [bSmart Labs.](https://www.bsmart.it/) (_2021-2025_) as **`Backend developer`** with:
 <div>
   <a href="#"><img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=flat&logo=ruby&logoColor=white" alt="ruby badge"/></a>
@@ -22,7 +22,7 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-2025_) as **`Backend developer`
   <a href="#"><img src="https://img.shields.io/badge/grafana-%23F46800.svg?style=flat&logo=grafana&logoColor=white" alt="grafana badge"/></a>
 </div>
 
-## Engineering working experience
+## Automation Engineering experience
 at [STB SYS Automation](https://www.stbvalitech.it/) (_2013-2021_) as **`Senior Software Automation Engineering`** with:
 <div>
   <a href="#"><img src="https://img.shields.io/badge/InductiveAutomation-445C6D?style=flat&logo=inductiveautomation&logoColor=white" alt="mysql badge"/></a>
@@ -34,39 +34,18 @@ at [STB SYS Automation](https://www.stbvalitech.it/) (_2013-2021_) as **`Senior 
 
 ## Side projects
 
-+ ### M2i project
-<div>
-  <a href="#"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB" alt="a badge"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white" alt="a badge"/></a>
-  <a href="#" disabled><img src="https://shields.io/badge/-Payload%20CMS-black?style=flat&logo=payloadcms&logoColor=white" alt="PayloadCMS"/></a>
-</div>
++ ### M2i project <a href="#"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB" alt="a badge"/></a> <a href="#"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white" alt="a badge"/></a>  <a href="#" disabled><img src="https://shields.io/badge/-Payload%20CMS-black?style=flat&logo=payloadcms&logoColor=white" alt="PayloadCMS"/></a>
 
-+ ### R&T project
-<div>
-  <a href="#"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB" alt="a badge"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white" alt="a badge"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white" alt="a badge"/></a>
-</div>
 
-+ ### Document Utility for Keyword Extraction - D.U.K.E.
-[D.U.K.E.](https://gabrielemartire.github.io/DUKE/) ([repo](https://github.com/gabrielemartire/DUKE/tree/main)) made with:
-<div>
-  <a href="#"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E" alt="a badge"/></a>
-</div>
++ ### R&T project <a href="#"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB" alt="a badge"/></a> <a href="#"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white" alt="a badge"/></a> <a href="#"><img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white" alt="a badge"/></a>
 
-+ ### Control Badge Re▲der
-[repo](https://github.com/gabrielemartire/control_badge_reader) made with:
-<div>
-  <a href="#"><img src="https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54" alt="python badge"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/mysql-%2300f.svg?style=flat&logo=mysql&logoColor=white" alt="sql badge"/></a>
-  <img src="" alt=""/>
-</div
++ ### Document Utility for Keyword Extraction - [D.U.K.E.](https://gabrielemartire.github.io/DUKE/) <a href="#"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E" alt="a badge"/></a> ([repo](https://github.com/gabrielemartire/DUKE/tree/main))
 
-+ ### Game of Life
-[repo](https://github.com/gabrielemartire/game_of_life) made with:
-<div>
-  <a href="#"><img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=flat&logo=ruby&logoColor=white" alt="a badge"/></a>
-</div>
++ ### Control Badge Re▲der <a href="#"><img src="https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54" alt="python badge"/></a> <a href="#"><img src="https://img.shields.io/badge/mysql-%2300f.svg?style=flat&logo=mysql&logoColor=white" alt="sql badge"/></a> [repo](https://github.com/gabrielemartire/control_badge_reader)
+
++ ### Game of Life <a href="#"><img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=flat&logo=ruby&logoColor=white" alt="a badge"/></a> [repo](https://github.com/gabrielemartire/game_of_life)
+
+![Codewars](https://github.r2v.ch/codewars?user=gabrielemartire&stroke=%23BB432C)
 
 ## 🏴‍☠Contacts
 
