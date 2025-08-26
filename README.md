@@ -34,16 +34,15 @@ at [STB SYS Automation](https://www.stbvalitech.it/) (_2013-2021_) as **`Senior 
 
 ## Side projects
 
-+ ### M2i project <a href="#"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB" alt="a badge"/></a> <a href="#"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white" alt="a badge"/></a>  <a href="#" disabled><img src="https://shields.io/badge/-Payload%20CMS-black?style=flat&logo=payloadcms&logoColor=white" alt="PayloadCMS"/></a>
++ #### M2i project <a href="#"></a> <a href="#" disabled> <img src="https://shields.io/badge/-NodeJS-%339933.svg?style=flat&logo=Node.js&logoColor=white" alt="a badge"/> </a> <a href="#" disabled> <img src="https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB" alt="a badge"/></a> <a href="#" disabled> <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white" alt="a badge"/></a> <a href="#" disabled> <img src="https://shields.io/badge/-Payload%20CMS-black?style=flat&logo=payloadcms&logoColor=white" alt="PayloadCMS"/></a> 
 
++ #### RepoPlaza <a href="#"></a><a href="#"><img src="https://img.shields.io/badge/rails-%23CC0000.svg?style=flat&logo=ruby-on-rails&logoColor=white" alt="rails badge"/></a> <a href="#"><img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white" alt="docker badge"/></a> <a href="#"><img src="https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white" alt="postgres badge"/></a> ([repo](https://github.com/gabrielemartire/repo_plaza))
 
-+ ### R&T project <a href="#"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB" alt="a badge"/></a> <a href="#"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white" alt="a badge"/></a> <a href="#"><img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white" alt="a badge"/></a>
++ #### Document Utility for Keyword Extraction - [D.U.K.E.](https://gabrielemartire.github.io/DUKE/) <a href="#"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E" alt="a badge"/></a> ([repo](https://github.com/gabrielemartire/DUKE/tree/main))
 
-+ ### Document Utility for Keyword Extraction - [D.U.K.E.](https://gabrielemartire.github.io/DUKE/) <a href="#"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E" alt="a badge"/></a> ([repo](https://github.com/gabrielemartire/DUKE/tree/main))
++ #### Control Badge Re▲der <a href="#"><img src="https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54" alt="python badge"/></a> <a href="#"><img src="https://img.shields.io/badge/mysql-%2300f.svg?style=flat&logo=mysql&logoColor=white" alt="sql badge"/></a> [repo](https://github.com/gabrielemartire/control_badge_reader)
 
-+ ### Control Badge Re▲der <a href="#"><img src="https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54" alt="python badge"/></a> <a href="#"><img src="https://img.shields.io/badge/mysql-%2300f.svg?style=flat&logo=mysql&logoColor=white" alt="sql badge"/></a> [repo](https://github.com/gabrielemartire/control_badge_reader)
-
-+ ### Game of Life <a href="#"><img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=flat&logo=ruby&logoColor=white" alt="a badge"/></a> [repo](https://github.com/gabrielemartire/game_of_life)
++ #### Game of Life <a href="#"><img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=flat&logo=ruby&logoColor=white" alt="a badge"/></a> [repo](https://github.com/gabrielemartire/game_of_life)
 
 ![Codewars](https://github.r2v.ch/codewars?user=gabrielemartire&stroke=%23BB432C)
 
