@@ -1,5 +1,5 @@
 ## 📌 Daily work
-at [Tecno-Electric](https://www.te-srl.it/) (_2025-now_) as **`DevOps & Backend developer`** with:
+**`DevOps & Backend developer`** [@Tecno-Electric](https://www.te-srl.it/) (_2025-now_) with:
 <div>
   <a href="#" disabled> <img src="https://shields.io/badge/-NodeJS-%339933.svg?style=flat&logo=Node.js&logoColor=white" alt="a badge"/> </a>
   <a href="#"><img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white" alt="docker badge"/></a>
@@ -10,7 +10,7 @@ at [Tecno-Electric](https://www.te-srl.it/) (_2025-now_) as **`DevOps & Backend 
 </div>
 
 ## Web Engineering experience
-at [bSmart Labs.](https://www.bsmart.it/) (_2021-2025_) as **`Backend developer`** with:
+**`Backend developer`** [@bSmart Labs](https://www.bsmart.it/) (_2021-2025_) with:
 <div>
   <a href="#"><img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=flat&logo=ruby&logoColor=white" alt="ruby badge"/></a>
   <a href="#"><img src="https://img.shields.io/badge/rails-%23CC0000.svg?style=flat&logo=ruby-on-rails&logoColor=white" alt="rails badge"/></a>
@@ -21,7 +21,7 @@ at [bSmart Labs.](https://www.bsmart.it/) (_2021-2025_) as **`Backend developer`
 </div>
 
 ## Automation Engineering experience
-at [STB SYS Automation](https://www.stbvalitech.it/) (_2013-2021_) as **`Senior Software Automation Engineering`** with:
+**`Senior Software Automation Engineering`** [@STB SYS](https://www.stbvalitech.it/) (_2013-2021_) as with:
 <div>
   <a href="#"><img src="https://img.shields.io/badge/InductiveAutomation-445C6D?style=flat&logo=inductiveautomation&logoColor=white" alt="mysql badge"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Siemens-009999?style=flat&logo=siemens&logoColor=white" alt="mysql badge"/></a>
