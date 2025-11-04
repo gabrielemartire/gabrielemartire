@@ -21,11 +21,15 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
 
-## Side projects
+## Other projects
 
-+ #### [DD.M2ing](https://dd.m2ingegneria.it/login) with <img src="https://shields.io/badge/-Payload%20CMS-black?style=flat&logo=payloadcms&logoColor=white" alt="PayloadCMS"/></a> 
++ #### [DD.M2ing](https://dd.m2ingegneria.it) with <img src="https://shields.io/badge/-Payload%20CMS-black?style=flat&logo=payloadcms&logoColor=white" alt="PayloadCMS"/></a> 
 
 + #### [Document Utility for Keyword Extraction - D.U.K.E.](https://gabrielemartire.github.io/DUKE/) with <a href="#"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E" alt="a badge"/></a> [link📁](https://github.com/gabrielemartire/DUKE/tree/main)
+
++ #### [gradity](https://gradity.it) with <img src="https://shields.io/badge/-NodeJS%20CMS-black?style=flat&logo=payloadcms&logoColor=white" alt="PayloadCMS"/></a> 
+
++ #### [lazyteam.dev](https://lazyteam.dev)
 
 ## 🏴‍☠Contacts
 
