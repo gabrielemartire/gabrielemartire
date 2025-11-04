@@ -35,6 +35,5 @@
   <a> <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="a badge"/> </a> -->
 
 [![Gmail](https://img.shields.io/badge/gabriele.martire@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabriele.martire@gmail.com)
-[![Linkedin](https://img.shields.io/badge/-GabrieleMartire-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriele-martire-33429395/)](https://www.linkedin.com/in/gabriele-martire-33429395/)
 
 ![Alt Text](https://media.giphy.com/media/FcT1BFYoHwJxu/giphy.gif)
