@@ -1,22 +1,31 @@
-**`DevOps & Backend developer`**
+## `DevOps & Backend developer`
 
-## 📌 Daily Work Technology
-<div>
-  <a href="#" disabled> <img src="https://shields.io/badge/-NodeJS-%339933.svg?style=flat&logo=Node.js&logoColor=white" alt="NodeJS"/> </a>
-  <a href="#"><img src="https://img.shields.io/badge/rails-%23CC0000.svg?style=flat&logo=ruby-on-rails&logoColor=white" alt="Rails"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white" alt="docker"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/git-f14e32?style=flat&logo=git&logoColor=white" alt="git"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Github%20Actions-0388a6?style=flat&logo=githubactions&logoColor=white" alt="GitHubActions"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white" alt="postgres"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="mySQL"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/grafana-%23F46800.svg?style=flat&logo=grafana&logoColor=white" alt="grafana"/></a>
-</div>
+### 📌 Daily Work Technology
+
+#### Fulllstack
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
+#### CI/CD
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+#### Database
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+
+#### Other
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
 
 ## Side projects
 
-+ #### [DD.M2ing](https://dd.m2ingegneria.it/login) <a href="#"></a> <a href="#" disabled> <img src="https://shields.io/badge/-NodeJS-%339933.svg?style=flat&logo=Node.js&logoColor=white" alt="a badge"/> </a> <a href="#" disabled> <img src="https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB" alt="a badge"/></a> <a href="#" disabled> <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white" alt="a badge"/></a> <a href="#" disabled> <img src="https://shields.io/badge/-Payload%20CMS-black?style=flat&logo=payloadcms&logoColor=white" alt="PayloadCMS"/></a> 
++ #### [DD.M2ing](https://dd.m2ingegneria.it/login) with <img src="https://shields.io/badge/-Payload%20CMS-black?style=flat&logo=payloadcms&logoColor=white" alt="PayloadCMS"/></a> 
 
-+ #### [Document Utility for Keyword Extraction - D.U.K.E.](https://gabrielemartire.github.io/DUKE/) <a href="#"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E" alt="a badge"/></a> [repo](https://github.com/gabrielemartire/DUKE/tree/main)
++ #### [Document Utility for Keyword Extraction - D.U.K.E.](https://gabrielemartire.github.io/DUKE/) with <a href="#"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E" alt="a badge"/></a> [link📁](https://github.com/gabrielemartire/DUKE/tree/main)
 
 ## 🏴‍☠Contacts
 
