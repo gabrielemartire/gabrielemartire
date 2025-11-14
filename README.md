@@ -25,15 +25,11 @@
 
 + #### [DD.M2ing](https://dd.m2ingegneria.it) with <img src="https://shields.io/badge/-Payload%20CMS-black?style=flat&logo=payloadcms&logoColor=white" alt="PayloadCMS"/></a> 
 
-+ #### [D.U.K.E.](https://gabrielemartire.github.io/DUKE/) with <a href="#"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E" alt="a badge"/></a> [📁↗](https://github.com/gabrielemartire/DUKE/tree/main)
-
 + #### [gradity](https://gradity.it) with <a href="#" disabled> <img src="https://shields.io/badge/-NodeJS-%6DA55F.svg?style=flat&logo=Node.js&logoColor=white" alt="a badge"/> </a>
 
-## 🏴‍☠Contacts
+## 🏴‍☠Contacts 
 
-<!--  <a src="google.com"> <img src="https://img.shields.io/badge/-MASTODON-%232B90D9?style=for-the-badge&logo=mastodon&logoColor=white" alt="a badge"/> </a>
-  <a> <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="a badge"/> </a> -->
-
+[![MASTODON](https://img.shields.io/badge/mastodon↗-615ef8?style=for-the-badge&logo=mastodon&logoColor=white)](https://livellosegreto.it/@gabbros101)
 [![Gmail](https://img.shields.io/badge/gabriele.martire@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabriele.martire@gmail.com)
 
 ![Alt Text](https://media.giphy.com/media/FcT1BFYoHwJxu/giphy.gif)
