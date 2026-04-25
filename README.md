@@ -18,9 +18,3 @@ LinkedIn · [linkedin.com/gabriele-martire](https://www.linkedin.com/in/gabriele
 <!--blog · [developunk.com](https://developunk.com)-->
 
 email · [gabriele.martire@gmail.com](mailto:gabriele.martire@gmail.com)
-
-
-**[PiGS — Pi Ground Station](https://github.com/gabrielemartire/pigs)** Containerized ground station prototype on Raspberry Pi 5. MQTT telemetry pipeline, InfluxDB time-series storage, statistical anomaly detection, Grafana dashboard. Architecture aligned with CCSDS TM/TC patterns.
-`Python` `MQTT` `InfluxDB` `Docker Compose` `Raspberry Pi 5`
-
-### ↓ Projects
