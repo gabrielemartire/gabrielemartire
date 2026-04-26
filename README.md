@@ -2,7 +2,7 @@
 
 *System integration engineer with 13 years of experience on complex industrial projects — field commissioning, PLC/HMI development, IV&V, and IIoT pipelines.*
 
-### Stack
+### · Stack
 
 | Domain | Tools |
 |---|---|
@@ -11,10 +11,8 @@
 | IT / Dev | `Python` `Node.js` `PostgreSQL` `JS` |
 | OT / Field | `Siemens TIA Portal` `Rockwell` `Modbus` `Profinet` `OPC-UA` |
 
-### Contacts
-
-LinkedIn · [linkedin.com/gabriele-martire](https://www.linkedin.com/in/gabriele-martire/)
+### · Link
 
 <!--blog · [developunk.com](https://developunk.com)-->
 
-email · [gabriele.martire@gmail.com](mailto:gabriele.martire@gmail.com)
+ [gabriele.martire@gmail.com](mailto:gabriele.martire@gmail.com)
